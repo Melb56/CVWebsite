@@ -1,0 +1,241 @@
+:root {
+    --color1: #000000;
+    --color2: #FFF8EB;
+    --color3: #A06D5C;
+    --color4: #C6A58F;
+    --color5: #9DA993; 
+}
+
+        /*Global settings*/
+* {
+    font-family: "Inter", sans-serif;
+    margin: 5px;
+    box-sizing: ;
+    color: var(--color1);
+}
+
+body {
+    background-color: var(--color2)
+}
+
+    /*Header*/
+nav {
+ background-color: var(--color3)  
+}
+
+.navbar {
+    background: ;
+}
+
+.navbar-brand { 
+    background: ;
+}
+
+
+    /*Button*/
+.btn {
+    background-color: var(--color5) ;
+}
+
+h1 {
+    background:;
+}
+
+    /*Hero-area*/
+#hero-area {
+    display: flex;
+    background: ;
+}
+
+#hero-area p {
+    background: ;
+}
+
+#hero-area h1 {
+    background: ;
+}
+
+#hero-area a {
+    background: ;
+}
+
+
+    /*About*/
+#about {
+    display: flex;
+    /*flex-direction: row-reverse;*/
+    justify-content: space-around ;
+    margin: 30px auto;
+   /* align-items: ;*/
+}
+
+#about h1 {
+    font-size: ;
+}
+
+#about p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    
+}
+
+#about a {
+    background: ;
+}
+
+#about img {
+    width: 50%;
+}
+/*.arrondiImg {
+    
+}*/
+
+
+    /*Skills*/
+#skills {
+    background: ;
+}
+
+#skills h1 {
+    background: ;
+}
+
+.language {
+    background: ;
+}
+.language h2 {
+    background: ;
+}
+.flag {
+    background: ;
+}
+.flag img {
+    background: ;
+}
+
+.tech-skills {
+    background:;
+}
+.tech-skills h2 {
+    background:;
+}
+
+.front {
+    background: ;
+}
+.front h5 {
+    background:;
+}
+.front img {
+    background: ;
+}
+.back {
+    background:;
+}
+.back h5 {
+    background:;
+}
+.back img {
+    background:;
+}
+.tools {
+    background:;
+}
+.tools h5 {
+    background:;
+}
+.tools img {
+    background:;
+}
+
+.pro-skills {
+    background:;
+}
+.pro-skills h2 {
+    background:;
+}
+.pro-skills h3 {
+    background:;
+}
+.pro-skills p {
+    background:;
+}
+
+
+    /*Experiences*/
+#experience {
+    background:;
+}
+
+#education {
+    background: ;
+}
+#education h1 {
+    background: ;
+}
+.name-school{
+    background:;
+}
+.date {
+    background:;
+}
+.diploma {
+    background:;
+}
+.details {
+    background:;
+}
+
+#pro-experience {
+    background:;
+}
+#pro-experience h1 {
+    background:;
+}
+.name-exp {
+    background:;
+}
+.date-exp {
+    background:;
+}
+.details-exp {
+    background:;
+}
+#pro-experience li {
+    background:;
+}
+
+
+    /*Portfolio*/
+#portfolio {
+    background:;
+}
+#portfolio h1 { 
+    background:;
+}
+.portfolio1 {
+    background:;
+}
+.portfolio2 {
+    background:;
+}
+.portfolio3 {
+    background:;
+}
+.portfolio4 {
+    background:;
+}
+#portfolio h3 { 
+    background:;
+}
+#portfolio p { 
+    background:;
+}
+
+
+    /*Contact*/
+
+
+    /*Footer*/
