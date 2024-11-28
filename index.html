@@ -7,26 +7,27 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     
     <title>Mélanie Bruzac, Développeuse Web Front-end</title>
+    <link rel="icon" href="img/Logo/Favicon.png" type="image/x-icon">
 </head>
 <body>
             <!--Header-->
-    <nav class="navbar navbar-expand-lg">
+    <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!--logo -->
-          <a class="navbar-brand" href="#hero"> Quai Antique
-            <img src="img/Logo/MB.png" width="300" height="auto" alt="Logo">
+          <a class="navbar-brand" href="#hero">
+            <img src="img/Logo/logoHeader.png" width="300" height="auto" alt="Logo">
           </a>
              <!--Barre de navigation -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-white"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="accueil.html">Accueil</a>
-              <a class="nav-link" href="galerie.html">Galerie</a>
-              <a class="nav-link" href="menu.html">Menu</a>
-              <a class="nav-link" href="reservation.html">Réservation</a>
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="#about">A propos</a>
+              <a class="nav-link" href="#skills">Compétences</a>
+              <a class="nav-link" href="#experience">Scolarité & Expériences professionnelles</a>
+              <a class="nav-link" href="#portfolio">Projets</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div> 
           </div>   
         </div>
@@ -34,230 +35,431 @@
 
 
             <!--Hero-area-->
-    <div id="hero-area">
-        <p>Bonjour, je suis </p>
-        <h1>Mélanie Bruzac</h1>
-        <a href="www.linkedin.com/in/mélanie-bruzac"> <img src="src\linkedin.svg" alt="LogoLinkedin"/> </a>
-        <a class="btn">Télécharger CV</a>
+    <div id="hero-area" class="fade-in">
+        <div class="hero-content">
+            <p>Bonjour, je suis</p>
+            <h1>Mélanie Bruzac</h1>
+            <div id="typed-output"></div>
+            <a href="www.linkedin.com/in/mélanie-bruzac"> <img src="img/linkedin.svg" alt="LogoLinkedin"/> </a>
+            <a class="btn" src="">Télécharger mon CV</a>
+        </div>
+        
     </div>
 
 
             <!--About-->
-    <section id="about">
-        <div class="about">
+    <section class="about" class="fade-in">
+    
+        <div class="card-about">
+            <div class="card-img">
+                <div class="about-img">
+                    <img  src="img/About/About.jpg" alt="Photo de profil" />
+                </div> 
+                <div class="about-text">
+                    <p>Mélanie Bruzac</p>
+                    <p>Développeuse front-end</p>
+                    <p>Bretagne</p>
+                    <p>Permis B</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container-about">
             <h1>A propos</h1>
-            <p>Tout juste diplômé, je recherche ma première expérience professionnelles en tant que développeuse web.
-            Je suis une personne qui s’adapte à toute personnes et à tout travail.
-            Je suis capable de m’adapter au travail d’équipe ainsi qu’au travail en solo.
-            Tout juste diplômé, je recherche ma première expérience professionnelles en tant que développeuse web.
-            Je suis une personne qui s’adapte à toute personnes et à tout travail.
-            Je suis capable de m’adapter au travail d’équipe ainsi qu’au travail en solo.
-            Tout juste diplômé, je recherche ma première expérience professionnelles en tant que développeuse web.
-            Je suis une personne qui s’adapte à toute personnes et à tout travail.
-            Je suis capable de m’adapter au travail d’équipe ainsi qu’au travail en solo.</p>
-            <a class="btn">Télécharger CV</a>
-            <a class="btn">Contact</a>
+            <p>Titulaire d’un titre professionnel de Développeur Web Full Stack, je suis à la recherche de ma première expérience professionnelle dans le développement web front-end. Je souhaite intégrer une entreprise où je pourrai non seulement mettre à profit mes compétences, mais aussi continuer à en développer de nouvelles. <br>
+            Autonome, créative et dotée d’une grande capacité d’adaptation, je m’épanouis dans des environnements variés et apprécie de relever des défis. Ma motivation et ma curiosité me poussent à constamment apprendre et à contribuer activement aux projets qui me sont confiés.</p>
+            <div class="btnAbout">
+                <a class="btn" src="">Télécharger mon CV</a>
+                <a class="btn">Contactez moi</a>
             </div>
-            <div class="img"> 
-                <img class="arrondiImg" src="" alt="Photo de profil"  />
-            </div>
-            </section>
+        </div>
+    </section>
 
 
             <!--Skills-->
-    <section id="skills">
-        <h1>Compétences</h1>
+    <section id="skills" class="fade-in">
+        <h1>Mes compétences</h1>
+        <div class="skills">
+            <div class="container-skills lang-box">
+                <h2>Langues</h2>
+                <div class="container-img">
+                    <div class="image">
+                        <img src="img/Flags/france.png" alt="Fr"/>
+                        <div class="overlay">
+                            <p>maternelle</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/royaume-uni.png" alt="RU"/>
+                        <div class="overlay"> 
+                            <p>intermédiaire <br> TOEIC : 840 </p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/japon.png" alt="Jap"/>
+                        <div class="overlay"> 
+                            <p>débutant</p> 
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/allemand.png" alt="All"/>
+                        <div class="overlay"> 
+                            <p>débutant</p>
+                        </div>
+                    </div> 
+                    
+                </div>
+            </div>
 
-        <div class="language">
-            <h2>Langues</h2>
-            <div class="flag">
-                <img src="src\Flags\france.png" alt="Fr"/>
-                <img src="src\Flags\royaume-uni.png" alt="RU"/>
-                <img src="src\Flags\japon.png" alt="Jap"/>
-                <img src="src\Flags\allemand.png" alt="All"/>
+            <div class="container-skills">
+                <div class="tech-container collapsible">
+                    <h2>Techniques</h2>
+                    <div class="stack">
+                        <h4>FRONT</h4>
+                            <div class="container-img">
+                                <div class="image">
+                                    <img src="img/Skills/html-5.svg" alt="HTML"/>
+                                    <div class="overlay">
+                                        <p>HTML</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/css.svg" alt="CSS"/>
+                                    <div class="overlay">
+                                        <p>CSS</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/bootstrap.svg" alt="Bootstrap"/>
+                                    <div class="overlay">
+                                        <p>Bootstrap</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/sass.svg" alt="SASS"/>
+                                    <div class="overlay">
+                                        <p>SASS</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/javascript.svg" alt="JS"/>
+                                    <div class="overlay">
+                                        <p>Javascript</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/react.svg" alt="REACT"/>
+                                    <div class="overlay">
+                                        <p>React</p>
+                                    </div>
+                                </div>
+                            </div> 
+                    </div>
+                    <div class="stack back">
+                        <h4>BACK</h4>    
+                            <div class="container-img ">
+                                <div class="image">
+                                    <img src="img/Skills/php.svg" alt="PHP"/> 
+                                    <div class="overlay">
+                                        <p>PHP</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/symfony.svg" alt="Symfony"/>
+                                    <div class="overlay">
+                                        <p>Symfony</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/mysql.svg" alt="MySQL"/>
+                                    <div class="overlay">
+                                        <p>MySQL</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/mariadb.svg" alt="MariaDB"/>
+                                    <div class="overlay">
+                                        <p>MariaDB</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/xampp.svg" alt="Xampp"/>
+                                    <div class="overlay">
+                                        <p>Xampp</p>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="img/Skills/nodejs.svg" alt="Nodejs"/>
+                                    <div class="overlay">
+                                        <p>Nodejs</p>
+                                    </div>
+                                </div>          
+                            </div>
+                    </div>
+                </div>
+                <button id="toggle-skills">+</button>
+            </div>
+
+
+            <div class="container-skills tool-box">
+                <h2>Outils</h2>
+                <div class="container-img">
+                    <div class="image">
+                        <img src="img/Skills/figma.svg" alt="Figma"/>
+                        <div class="overlay">
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Skills/canva.svg" alt="Canva"/>
+                        <div class="overlay">
+                            <p>Canva</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Skills/git.svg" alt="Git"/> 
+                        <div class="overlay">
+                            <p>Git</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Skills/github.svg" alt="GitHub"/>
+                        <div class="overlay">
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Skills/wordpress.svg" alt="WP"/> 
+                        <div class="overlay">
+                            <p>Wordpress</p>
+                        </div>
+                    </div>
+                </div>                      
             </div>
         </div>
+               
 
-            <div class="tech-skills">
-                <h2>Compétences techniques</h2>
-                <div class="front">
-                    <h5>FRONT</h5>
-                        <img src="src\Skills\html.svg" alt="HTML"/>
-                        <img src="src/Skills/css.svg" alt="CSS"/>
-                        <img src="src\Skills\bootstrap.svg" alt="Bootstrap"/>
-                        <img src="" alt=""/>
-                        <img src="src\Skills\javascript.svg" alt="JS"/>
-                        <img src="" alt=""/>
-                </div> 
-                <div class="back">
-                    <h5>BACK</h5>
-                        <img src="src\Skills\php.svg" alt="PHP"/>
-                        <img src="src/Skills/symfony.svg" alt="Symfony"/>
-                        <img src="src\Skills\mysql.svg" alt="MySQL"/>
-                        <img src="src\Skills\mariadb.svg" alt="MariaDB"/>
-                        <img src="src\Skills\xampp.svg" alt="Xampp"/>
-                        <img src="src\Skills\nodejs.svg" alt="Nodejs"/>
-                </div>
-                <div class="tools">
-                    <h5>Outils</h5>
-                    <img src="src\Skills\figma.svg" alt="Figma"/>
-                    <img src="src\Skills\canva.svg" alt="Canva"/>
-                    <img src="src\Skills\git.svg" alt="Git"/>
-                    <img src="src\Skills\github.svg" alt="GitHub"/>
-                    <img src="ssrc\Skills\wordpress.svg" alt="WP"/>
-                </div>
-            </div>
-
+        <div id="pro-skills">
+            <h2>Professionnelles</h2>
             <div class="pro-skills">
-                <h2>Compétences professionnelles</h2>
-                <div>
-                    <h3>Développement Front-End</h3>
-                    <p>Site web moderne, dynamique et sécurisé.</p>
+                <div class="task">
+                <h3>Développement Front-End</h3>
+                <p>Site web moderne, dynamique et sécurisé.</p>
                 </div>
-                <div>
+                <div class="task">
                     <h3>Développement Back-End</h3>
                     <p>Interface CRUD Create, Read, Update, Delete.</p>
                 </div>
-                <div>
+                <div class="task">
                     <h3>Responsive design</h3>
                     <p>Site web adapté aux ordinateurs et aux mobiles</p>
-                </div>
+                </div> 
             </div>
+            
+        </div>
     </section>
 
 
             <!--Experiences--> 
-    <section id="experience">
-        <div id="education">
-            <h1>Scolarité</h1>
-            <div class="studi">
-                <p class="name-school">STUDI</p>
-                <p class="date">Septembre 2024 à Décembre 2023</p>
-                <p class="diploma">Graduate Développeur web full stack (obtenu)</p>
-                <p class="details"> Enseignement des compétences pour créer et maintenir un site web, Front-en et Back-end.</p>
+    <section id="experience" class="fade-in">
+        <div class="container-exp">
+            <div class="experience">
+                <div class="title-exp">
+                    <img src="img/Experience/Chapeau-de-graduation-50.png" alt="">
+                    <h1>Scolarité</h1>   
+                </div>
+                <div class="container">
+                    <h5>STUDI</h5>
+                    <p class="date">Septembre 2024 à Décembre 2023</p>
+                    <p class="diploma">Graduate Développeur web full stack (obtenu)</p>
+                    <p> Enseignement des compétences pour créer et maintenir un site web, Front-en et Back-end.</p>
+                </div>
+                <div class="container">
+                    <h5>Université de Kagoshima, JAPON</h5>
+                    <p class="date">Avril à juillet 2022</p>
+                    <p>
+                    Séjour universitaire validant mon 2ème semestre à l’EMBA Business School.</p>
+                    <p>Cours de japonais et d’anglais.</p>
+                </div>
+                <div class="container">
+                    <h5>EMBA Business School, quimper</h5>
+                    <p class="date">Septembre 2019 à juillet 2022</p>
+                    <p class="diploma">Bachelor in Europe-Asia International Business & diplôme chargé d’affaire Europe-Asie (obtenu)</p>
+                    <p>Enseignement des compétences techniques, culturelles et linguistiques permettant de construire et de développer des relations d'affaires entre l'Europe et l'Asie, plus précisément sur les marchés japonais, coréen et chinois.<br/>
+                    Cours de : Japonais, Cultures asiatiques, Marketing digital & Marketing, Import-Export, Comptabilité, Stratégie d'entreprise, Négociation, Droit des contrats internationaux, Achat, Développement d'un Business Plan.<br/>
+                    Organisation de la Journée Japon 2020, équipe sponsoring.</p>
+                </div>
+                <div class="container">
+                    <h5>Université de Nantes, Nantes</h5>
+                    <p class="date">Septembre 2018 à juin 2019</p>
+                    <p class="diploma">Licence 2 LEA Anglais-Allemand (validé)</p>
+                    <p>Licence pluridisciplinaire associant des cours de langues et cultures étrangères à des compétences techniques fondamentaux dans le commerce international et les affaires internationales.</p>
+                </div>
+                <div class="container">
+                    <h5>EF écoles de langue, LONDRES & SAN FRANCISCO</h5>
+                    <p class="date">Septembre 2017 à mai 2019</p>
+                    <p class="diploma">Multiple Center Academic Year Diploma (obtenu)</p>
+                    <p>Cours intensif d'anglais</p>
+                </div>
+                <div class="container">
+                    <h5>Université de Nantes, Nantes</h5>
+                    <p class="date">Septembre 2015 à juin 2017</p>
+                    <p class="diploma">Licence 1 & 2 LEA Anglais-Japonais (validé)</p>
+                </div>
             </div>
-            <div class="uni-kago">
-                <p class="name-school">Université de Kagoshima, JAPON</p>
-                <p class="date">Avril à juillet 2022</p>
-                <p class="details">
-                Séjour universitaire validant mon 2ème semestre à l’EMBA Business School.</p>
-                <p class="details">Cours de japonais et d’anglais.</p>
-            </div>
-            <div class="EMBA">
-                <p class="name-school">EMBA Business School, quimper</p>
-                <p class="date">Septembre 2019 à juillet 2022</p>
-                <p class="diploma">Bachelor in Europe-Asia International Business & diplôme chargé d’affaire Europe-Asie (obtenu)</p>
-                <p class="details">Enseignement des compétences techniques, culturelles et linguistiques permettant de construire et de développer des relations d'affaires entre l'Europe et l'Asie, plus précisément sur les marchés japonais, coréen et chinois.<br/>
-                Cours de : Japonais, Cultures asiatiques, Marketing digital & Marketing, Import-Export, Comptabilité, Stratégie d'entreprise, Négociation, Droit des contrats internationaux, Achat, Développement d'un Business Plan.<br/>
-                Organisation de la Journée Japon 2020, équipe sponsoring.</p>
-            </div>
-            <div class="EF">
-                <p class="name-school">EF écoles de langue, LONDRES & SAN FRANCISCO</p>
-                <p class="date">Septembre 2017 à mai 2019</p>
-                <p class="diploma">Multiple Center Academic Year Diploma (obtenu)</p>
-                <p class="details">Cours intensif d'anglais</p>
-            </div>
-            <div class="uni-nantes">
-                <p class="name-school">Université de Nantes, Nantes</p>
-                <p class="date">2015 à 2017 et 2018 à 2019</p>
-                <p class="diploma">Licence 1 & 2 LEA Anglais-Japonais-Allemand (validé)</p>
-                <p class="details">Licence pluridisciplinaire associant des cours de langues et cultures étrangères à des compétences techniques fondamentaux dans le commerce international et les affaires internationales.</p>
-            </div>
-        </div>
 
-        <div id="pro-experience">
-            <h1>Expérience professionnelles</h1>
-            <div class="pro-experience">
-                <p class="name-exp">Association Avenir Solidarité Emploi, Kervignac</p>
-                <p class="date-exp">Novembre 2022 à maintenant et étés 2021, 2020, 2019 et 2018</p>
-                <ul class="details-exp">
-                    <li>Employée de ménage chez les particuliers, entreprises, cabinets et écoles.</li>
-                    <li>ASEM en Moyenne et Grande section, école St Anne Kervignac</li>
-                    <li>Agent des écoles : surveillance des enfants sur l'heure du midi</li>
-                    <li>Distribution de prospectus</li>
-                </ul>
-            </div>
-            <div class="pro-experience">
-                <p class="name-exp">CAP Lorient, lanester</p>
-                <p class="date-exp">Eté 2019</p>
-                <li class="details-exp">Ripeur : collecte des poubelles</li>
-            </div>
-            <div class="pro-experience">
-                <p class="name-exp">Cité Marine, Kervignac</p>
-                <p class="date-exp">Eté 2017</p>
-                <li class="details-exp">Agent de conditionnement : mettre les aliments dans les barquettes et les cartons</li>
-            </div>
-            <div class="pro-experience">
-                <p class="name-exp">Camping municipal, Port-Louis </p>
-                <p class="date-exp">Eté 2015</p>
-                <ul class="details-exp"> Adjoint administratif :
-                    <li>accueil et placement des clients</li>
-                    <li>facturation des séjours</li>
-                </ul>
+            <div class="experience work">
+                <div class="title-exp">
+                    <img src="img/Experience/Mallette.svg" alt="">
+                    <h1>Expériences professionnelles</h1>
+                </div>
+                
+                <div class="container">
+                    <h5>Association Avenir Solidarité Emploi, Kervignac</h5>
+                    <p class="date">Novembre 2022 à maintenant et étés 2021, 2020, 2019 et 2018</p>
+                    <ul>
+                        <li>Employée de ménage chez les particuliers, entreprises, cabinets et écoles.</li>
+                        <li>ASEM en Moyenne et Grande section, école St Anne Kervignac</li>
+                        <li>Agent des écoles : surveillance des enfants sur l'heure du midi</li>
+                        <li>Distribution de prospectus</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h5 >CAP Lorient, lanester</h5>
+                    <p class="date">Eté 2019</p>
+                    <li>Ripeur : collecte des poubelles</li>
+                </div>
+                <div class="container">
+                    <h5>Cité Marine, Kervignac</h5>
+                    <p class="date">Eté 2017</p>
+                    <li>Agent de conditionnement : mettre les aliments dans les barquettes et les cartons</li>
+                </div>
+                <div class="container">
+                    <h5>Camping municipal, Port-Louis </h5>
+                    <p class="date">Eté 2015</p>
+                    <p> Adjoint administratif : </p>
+                        <li>accueil et placement des clients</li>
+                        <li>facturation des séjours</li> 
+                </div>
             </div>
         </div>
+        
     </section>
 
 
             <!--Portfolio--> 
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-        <div class="portfolio1">
-            <h3>Gout</h3>
-            <p>Application de recherche d’activités hyper personnalisé
-            <b>En cours de développement</b>
-            HTML/CSS/Bootstrap/React.js/Symfony</p>
-        </div>
-        <div class="portfolio2">
-            <h3>Flottibulle</h3>
-            <p>Ecole de natation sur Etel
-            <b>https://flottibulle.fr/</b>
-            Wordpress</p>
-        </div>
-        <div class="portfolio3">
-            <h3>Restaurant Quai Antique</h3>
-            <p>Site vitrine et de réservation pour un restaurant FICTIF
-            <b>En cours de développement</b>
-            HTML/CSS/Bootstrap/React.js</p>
-        </div>
-        <div class="portfolio4">
-            <h3>Mon CV</h3>
-            <p>Site de mon CV
-            <b>LIEN</b>
-            HTML/CSS/Bootstrap/SASS/JS</p>
+    <section id="portfolio" class="fade-in">
+        <h1>Mes projets</h1>
+        <div class="filter-container">
+            <label>
+                <input type="checkbox" value="front" class="filter-checkbox" checked />Front
+                <span class="custom-checkbox"></span>
+            </label>
+            <label>
+                <input type="checkbox" value="back" class="filter-checkbox" checked />Back
+                <span class="custom-checkbox"></span>
+            </label>
+            <label>
+                <input type="checkbox" value="fullstack" class="filter-checkbox" checked />Fullstack
+                <span class="custom-checkbox"></span>
+            </label>
+        </div>         
+
+        <div class="card-container">
+            <div class="card" data-category="front">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Portfolio/Flottibulle.png" alt="Flottibulle">
+                    </div>
+                    <div class="card-back">
+                        <p>Ecole de natation sur Etel</p>
+                        <p>Création d'une maquette responsive et développement sur Wordpress</p>
+                        <a href="">https://flottibulle.fr/</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card" data-category="front">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Logo/logoHeader.png" alt="CV">
+                    </div>
+                    <div class="card-back">
+                        <p>Mon site CV</p>
+                        <p>Création d'une maquette responsive et intégration en HTML/CSS/Bootstrap/JS </p> 
+                        <a href="">melanie-bruzac.fr</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card" data-category="front">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Portfolio/QuaiAntique.png" alt="Quai Antique">
+                    </div>
+                    <div class="card-back">
+                        <p>Site vitrine et de réservation pour un restaurant Fictif</p>
+                        <p>Maquettage et intégration d'une maquette responsive.</p>
+                        <p>HTML/CSS/Bootstrap/React.js</p>
+                        <a href="">En cours de développement</a>
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <div class="card" data-category="fullstack">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Portfolio/GarageVParrot.png" alt="Garage V.Parrot">
+                    </div>
+                    <div class="card-back">
+                        <p>Site vitrine pour un garage Fictif</p>
+                        <p>Projet de fin de formation qui ma permis de voir tous les étapes d'un développement fullstack.</p>
+                        <p>HTML/CSS/Bootstrap/Symphony</p>
+                        <a href="">Lien GitHub</a>
+                        
+                    </div>
+                </div>
+            </div> 
         </div>
     </section>
-
 
             <!--Contact-->     
-    <section id="contact">
-        <div class="">
-            <img src="src\localisation.png" alt="LogoLocalisation"/>
-            <p>France</p>
-        </div>
-        <div class="">
-            <img src="" alt="LogoEmail"/>
-            <p>melanie.bruzac@gmail.com</p>
+    <section id="contact" class="fade-in">
+        <h1>Contact</h1>
+        <div class="info">
+            <div class="contact-info">
+                <img src="img/Contact/localisation.png" alt="LogoLocalisation"/>
+                <p>France</p>
             </div>
-         <div class="">
-            <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac-4409371b7"><img src="src\linkedinVertEmpty.svg" alt="LogoLinkedin"/></a>
+            <div class="contact-info">
+                <img src="img/Contact/email.png" alt="LogoEmail"/>
+                <p>melanie.bruzac@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac-4409371b7"><img src="img/Contact/linkedinVertEmpty.svg" alt="LogoLinkedin"/></a>
+            </div>
         </div>
+       
     </section>
 
+            <!--Flèche-->
+   <a href="#" class="scroll-to-top">
+        <span>&#8593;</span>
+    </a>         
+   
+
+
             <!--Footer-->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">  
-        <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <a href="">
-                <img src="img/instagram.png" alt="Insta">
-            </a>
+    <footer>  
+            <a href="www.linkedin.com/in/mélanie-bruzac"><img src="img/linkedinVertFull.svg" alt="Insta"></a>
             <p>&copy; Mélanie Bruzac 2024<br>
-            <a style="text-decoration:none" href="{{ path('mentions_legales')}}"> Mentions légales - </a></p>
-        </div>
-    
-      </footer>
+            <a href="mentionLegale.html"> Mentions légales </a></p>
+    </footer>
             
                         <!--Scripts-->
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
 </html>
