@@ -813,8 +813,30 @@ footer a {
 
 @media (max-width: 1381px) {
 
-     /*Skills*/
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img {
+        margin-top: 2rem;
+    }
     .pro-skills {
         gap: 2rem;
-    }  
+    } 
+
+        /*Exprerience*/
+    .work::before {
+        height: 100%;
+    }
+
+        /*Projets*/
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }   
+
+         /*Contact*/
+    .info {
+        width: 100%;
+    }
+
 }
