@@ -722,8 +722,64 @@ footer a {
 
         /*Media Queries*/
 
-@media (max-width: 768px) {
+@media (max-width: 1381px) {
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img {
+        margin-top: 2rem;
+    }
+    .pro-skills-container {
+        gap: 2rem;
+    } 
 
+        /*Exprerience*/
+    .work::before {
+        height: 100%;
+    }
+
+        /*Projets*/
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }   
+
+         /*Contact*/
+    .info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+        /*Skills*/
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-img {
+        margin-top: 2rem;
+    }
+    .pro-skills-container {
+        gap: 2rem;
+    } 
+
+        /*Exprerience*/
+    .work::before {
+        height: 100%;
+    }
+
+        /*Projets*/
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }   
+
+        /*Contact*/
+    .info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
             /*Nav*/
     .container-fluid {
         display: flex;
@@ -780,62 +836,5 @@ footer a {
     } 
 }
 
-@media (max-width: 1024px) {
 
-        /*Skills*/
-    .skills {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container-img {
-        margin-top: 2rem;
-    }
-    .pro-skills-container {
-        gap: 2rem;
-    } 
 
-        /*Exprerience*/
-    .work::before {
-        height: 100%;
-    }
-
-        /*Projets*/
-    .card-container {
-        display: grid;
-        grid-template-columns: 1fr; 
-    }   
-
-         /*Contact*/
-    .info {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1381px) {
-
-    .skills {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .container-img {
-        margin-top: 2rem;
-    }
-    .pro-skills-container {
-        gap: 2rem;
-    } 
-
-        /*Exprerience*/
-    .work::before {
-        height: 100%;
-    }
-
-        /*Projets*/
-    .card-container {
-        display: grid;
-        grid-template-columns: 1fr; 
-    }   
-
-         /*Contact*/
-    .info {
-        width: 100%;
-    }
-
-}
