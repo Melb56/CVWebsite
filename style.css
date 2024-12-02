@@ -725,10 +725,11 @@ footer a {
 @media (max-width: 768px) {
 
             /*Nav*/
-    .navbar-brand {
-        width: 50%;
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
             /*About*/
     .about {
         gap: 2rem;
