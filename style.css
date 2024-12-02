@@ -37,7 +37,7 @@ h2 {
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom: 30px;  
+    padding-bottom: 1.5rem;
 }
 h2::before {
     content: "";
@@ -46,7 +46,7 @@ h2::before {
     height: 2px;
     top: 20px;
     background-color: var(--color3);
-    margin: 10px; 
+    margin: 1rem; 
     
 }
 h2::after {
@@ -56,7 +56,7 @@ h2::after {
     height: 2px;
     top: 20px;
     background-color: var(--color3);
-    margin: 10px; 
+    margin: 1rem; 
     
 }
   
@@ -131,15 +131,13 @@ nav {
     display: none; 
   }
 
- 
-
 #hero-area {
     position: relative; 
     background-image: url('img/hero-area4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 5rem;
+    padding: 2rem;
     line-height: 6;
 }
 #hero-area::before {
@@ -310,8 +308,8 @@ nav {
 .container-skills {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-direction: column;
-    /*justify-content: center;*/
     margin: 2rem;
     background: var(--color2);
     padding: 2rem;
@@ -331,6 +329,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5%;
+    justify-content: center;
     justify-items: center;
     align-content: center;
 }
@@ -339,13 +338,13 @@ nav {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    align-content: center;
+    margin-bottom: 1rem;
 }
 .image img {
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 100px;
     transition: transform 0.3s ease; 
-    
 }
 .overlay {
     position: absolute;
@@ -400,17 +399,10 @@ nav {
     transform: scale(1.1);
   }
 
-.skills img {
-    width: 100px;
-    height: 100px;
-}
-
 .back {
     margin-top: 2rem;
     
 }
-
-
 
 .pro-skills {
     display: flex;
@@ -492,7 +484,6 @@ nav {
     margin: 1rem;
     text-align: justify;
 }
-
 
 .container::before {
     content: '';
@@ -723,15 +714,34 @@ footer a {
         /*Media Queries*/
 
 @media (max-width: 1381px) {
+    h2{
+        padding-bottom: 1rem;
+    }
+    h2::before {
+        position: absolute;
+    }
+    h2::after {
+        position: absolute;
+    }
+
+            /*Skills*/
     .skills {
         grid-template-columns: repeat(1, 1fr);
     }
     .container-img {
         margin-top: 2rem;
+        gap: 2rem;
     }
     .pro-skills-container {
         gap: 2rem;
     } 
+    .image img {
+        width: auto;
+        height: 90px;
+    }
+    .task {
+        padding: 1rem;
+    }
 
         /*Exprerience*/
     .work::before {
@@ -745,9 +755,6 @@ footer a {
     }   
 
          /*Contact*/
-    .info {
-        width: 100%;
-    }
 }
 
 @media (max-width: 1024px) {
@@ -755,12 +762,6 @@ footer a {
     .skills {
         grid-template-columns: repeat(1, 1fr);
     }
-    .container-img {
-        margin-top: 2rem;
-    }
-    .pro-skills-container {
-        gap: 2rem;
-    } 
 
         /*Exprerience*/
     .work::before {
@@ -798,10 +799,6 @@ footer a {
     .skills {
         grid-template-columns: repeat(1, 1fr);
     }
-    .back {
-        margin-top: 6rem;
-        margin-bottom: 4rem;
-    }
 
             /*Exprerience*/
     .work::before {
@@ -827,7 +824,7 @@ footer a {
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
-        width: 350px;
+        width: 90%;
     }
     .contact-info {
         display: flex;
