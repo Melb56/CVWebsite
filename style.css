@@ -296,6 +296,7 @@ nav {
 .skills {
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
 
 .lang-box {
@@ -311,7 +312,7 @@ nav {
     justify-content: center;
     flex-direction: column;
     /*justify-content: center;*/
-    margin: 32px;
+    margin: 2rem;
     background: var(--color2);
     padding: 2rem;
     border-radius: 10px;
@@ -381,13 +382,15 @@ nav {
     max-height: 1000px; 
 }
 #toggle-skills {
+    display: flex;
+    justify-content: center;
     background-color: var(--color5) ;
     font-weight: bold;
     border: none;
     margin: 1rem;
-    margin-left: 9rem;
-    margin-right: 9rem;
-    padding: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 0.5rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
@@ -409,18 +412,21 @@ nav {
 
 
 
-#pro-skills {
-    margin: 32px;
+.pro-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: var(--color2);
+    margin: 2rem;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.pro-skills {
+.pro-skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 5rem;
     justify-content: center;
     text-align: center;
     line-height: 2;
@@ -438,25 +444,28 @@ nav {
     transform: scale(1.3);
 }
 
-.pro-skills p {
+.pro-skills-container p {
     text-align: center;
 }
 
 
     /*Experiences*/
+#experience {
+    display: flex;
+    justify-content: center;
+}
+
 .container-exp {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 3rem;
-    gap: 50px;  
+    padding: 2rem;
+    gap: 9rem;  
 }
 
 .experience {
     position: relative;
     max-width: 600px;
-    padding: 20px 0;
-    padding: 2rem;
 }
 
 .experience::before {
@@ -476,7 +485,6 @@ nav {
 
 .container {
     position: relative;
-    /*width: 70%;*/
     box-sizing: border-box;
     background: var(--color4);
     border-radius: 10px;
@@ -490,7 +498,7 @@ nav {
     content: '';
     position: absolute;
     top: 20px;
-    left: -54px; 
+    left: -23px; 
     width: 16px;
     height: 16px;
     background: var(--color4);
@@ -644,7 +652,6 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
 
     /*Contact*/
 #contact {
-    padding: 3rem; 
     margin: 32px; 
 }
 
@@ -715,22 +722,12 @@ footer a {
 
         /*Media Queries*/
 
-@media (max-width: 480px) {
-
-            /*Contact*/
-    .info {
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-content:center;
-    }
-    .contact-info {
-        display: flex;
-        justify-content: flex-start;
-    }  
-}
-
-
 @media (max-width: 768px) {
+
+            /*Nav*/
+    .navbar-brand {
+        width: 50%;
+    }
 
             /*About*/
     .about {
@@ -748,18 +745,19 @@ footer a {
         margin-top: 6rem;
         margin-bottom: 4rem;
     }
-    .pro-skills {
-        gap: 2rem;
-    } 
 
             /*Exprerience*/
     .work::before {
         height: 100%;
     }
 
+    .container-exp {
+        gap: 3rem;
+    }
+
             /*Projets*/
     .card {
-        width: 400px;
+        width: 300px;
         height: 200px;    
     }    
     .card-container {
@@ -778,7 +776,7 @@ footer a {
         display: flex;
         justify-content: flex-start;
         padding: 1rem;
-    }
+    } 
 }
 
 @media (max-width: 1024px) {
@@ -790,7 +788,7 @@ footer a {
     .container-img {
         margin-top: 2rem;
     }
-    .pro-skills {
+    .pro-skills-container {
         gap: 2rem;
     } 
 
@@ -819,7 +817,7 @@ footer a {
     .container-img {
         margin-top: 2rem;
     }
-    .pro-skills {
+    .pro-skills-container {
         gap: 2rem;
     } 
 
