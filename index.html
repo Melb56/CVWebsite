@@ -7,16 +7,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     
     <title>Mélanie Bruzac, Développeuse Web Front-end</title>
-    <link rel="icon" href="img/Logo/Favicon.png" type="image/x-icon">
+    <link rel="icon" href="img/Logo/Favicon.svg" type="image/x-icon">
 </head>
 <body>
+
+
+
             <!--Header-->
-    <nav id="navbar" class="navbar navbar-expand-lg">
+   <nav id="navbar" class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <!--logo -->
-          <a class="navbar-brand" href="#hero">
-            <img src="img/Logo/logoHeader.png" width="300" height="auto" alt="Logo">
-          </a>
+            <div class="logo">Mélanie Bruzac</div>
              <!--Barre de navigation -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +30,7 @@
               <a class="nav-link" href="#portfolio">Projets</a>
               <a class="nav-link" href="#contact">Contact</a>
             </div> 
-          </div>   
+          </div> 
         </div>
     </nav>
 
@@ -38,12 +39,11 @@
     <div id="hero-area" class="fade-in">
         <div class="hero-content">
             <p>Bonjour, je suis</p>
-            <h1>Mélanie Bruzac</h1>
+            <p class="title-hero">Mélanie Bruzac</p>
             <div id="typed-output"></div>
-            <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac"> <img src="img/linkedin.svg" alt="LogoLinkedin"/> </a>
+            <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac"> <img src="img/linkedin-full.svg" alt="LogoLinkedin"/> </a>
             <a class="btn" href="img/CV-DevWebFront.pdf"  download="CV-DevWeb_MelanieBruzac.pdf">Télécharger mon CV</a>
         </div>
-        
     </div>
 
 
@@ -59,6 +59,7 @@
                     <p>Développeuse front-end</p>
                     <p>Bretagne</p>
                     <p>Permis B</p>
+                    <p>Hobbies : lecture, cuisiner, voyager </p>
                 </div>
             </div>
         </div>
@@ -79,43 +80,13 @@
     <section id="skills" class="fade-in">
         <h1>Mes compétences</h1>
         <div class="skills">
-            <div class="container-skills lang-box">
-                <h2>Langues</h2>
-                <div class="container-img">
-                    <div class="image">
-                        <img src="img/Flags/france.png" alt="Fr"/>
-                        <div class="overlay">
-                            <p>maternelle</p>
-                        </div>
-                    </div>
-                    <div class="image">
-                        <img src="img/Flags/royaume-uni.png" alt="RU"/>
-                        <div class="overlay"> 
-                            <p>intermédiaire <br> TOEIC : 840 </p>
-                        </div>
-                    </div>
-                    <div class="image">
-                        <img src="img/Flags/japon.png" alt="Jap"/>
-                        <div class="overlay"> 
-                            <p>débutant</p> 
-                        </div>
-                    </div>
-                    <div class="image">
-                        <img src="img/Flags/allemand.png" alt="All"/>
-                        <div class="overlay"> 
-                            <p>débutant</p>
-                        </div>
-                    </div> 
-                    
-                </div>
-            </div>
-
             <div class="container-skills">
                 <div class="tech-container collapsible">
-                    <h2>Techniques</h2>
+                    <h2>Développement web</h2>
                     <div class="stack">
                         <h4>FRONT</h4>
-                            <div class="container-img">
+                        <p>Création et intégration de sites web responsive, moderne et sécurisé.</p>
+                            <div class="container-img tech">
                                 <div class="image">
                                     <img src="img/Skills/html-5.svg" alt="HTML"/>
                                     <div class="overlay">
@@ -154,9 +125,10 @@
                                 </div>
                             </div> 
                     </div>
-                    <div class="stack back">
-                        <h4>BACK</h4>    
-                            <div class="container-img ">
+                    <div class="stack">
+                        <h4>BACK</h4> 
+                        <p>Création et gestion de données (CRUD).</p>   
+                            <div class="container-img tech ">
                                 <div class="image">
                                     <img src="img/Skills/php.svg" alt="PHP"/> 
                                     <div class="overlay">
@@ -195,13 +167,14 @@
                                 </div>          
                             </div>
                     </div>
+ 
                 </div>
-                <button id="toggle-skills" class="btn">+</button>
+                <button id="toggle-skills" class="">+</button>
             </div>
-
-
-            <div class="container-skills tool-box">
-                <h2>Outils</h2>
+        
+            <div class="container-skills box">
+                <h2>Web design</h2>
+                <p>Création de maquettes et de prototypes, responsives et centrées utilisateur.</p>
                 <div class="container-img">
                     <div class="image">
                         <img src="img/Skills/figma.svg" alt="Figma"/>
@@ -215,6 +188,29 @@
                             <p>Canva</p>
                         </div>
                     </div>
+                    </div>
+            </div>                      
+        </div>
+
+        <div class="skills">
+            <div class="container-skills">
+                <h2>CMS</h2>
+                <p>Création et édition de thèmes Wordpress.</p>
+                <div class="container-img CMS">
+                    <div class="image">
+                        <img src="img/Skills/wordpress.svg" alt="WP"/> 
+                        <div class="overlay">
+                            <p>Wordpress</p>
+                        </div>
+                    </div>
+                    
+                </div>                      
+            </div>
+
+            <div class="container-skills">
+                <h2>Environnement de travail</h2>
+                <div class="container-img">
+                    
                     <div class="image">
                         <img src="img/Skills/git.svg" alt="Git"/> 
                         <div class="overlay">
@@ -228,44 +224,62 @@
                         </div>
                     </div>
                     <div class="image">
-                        <img src="img/Skills/wordpress.svg" alt="WP"/> 
+                        <img src="img/Skills/xampp.svg" alt="Xampp"/> 
                         <div class="overlay">
-                            <p>Wordpress</p>
+                            <p>Xampp</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Skills/icons8-code-studio-visuel-2019.svg" alt="VSC"/> 
+                        <div class="overlay">
+                            <p>VSCode</p>
                         </div>
                     </div>
                 </div>                      
             </div>
-        </div>
-               
-
-        <div class="pro-skills">
-            <h2>Professionnelles</h2>
-            <div class="pro-skills-container">
-                <div class="task">
-                <h3>Développement Front-End</h3>
-                <p>Site web moderne, dynamique et sécurisé.</p>
-                </div>
-                <div class="task">
-                    <h3>Développement Back-End</h3>
-                    <p>Interface CRUD Create, Read, Update, Delete.</p>
-                </div>
-                <div class="task">
-                    <h3>Responsive design</h3>
-                    <p>Site web adapté aux ordinateurs et aux mobiles</p>
-                </div> 
-            </div>
             
+            <div class="container-skills">
+                <h2>Langues</h2>
+                <div class="container-img">
+                    <div class="image">
+                        <img src="img/Flags/france.png" alt="Fr"/>
+                        <div class="overlay">
+                            <p>maternelle</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/royaume-uni.png" alt="RU"/>
+                        <div class="overlay"> 
+                            <p>intermédiaire <br> TOEIC : 840 </p>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/japon.png" alt="Jap"/>
+                        <div class="overlay"> 
+                            <p>débutant</p> 
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="img/Flags/allemand.png" alt="All"/>
+                        <div class="overlay"> 
+                            <p>débutant</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
+        
     </section>
 
 
             <!--Experiences--> 
     <section id="experience" class="fade-in">
         <div class="container-exp">
+            <h1>Parcours</h1>
             <div class="experience">
                 <div class="title-exp">
-                    <img src="img/Experience/Chapeau-de-graduation-50.png" alt="">
-                    <h1>Scolarité</h1>   
+                    <img src="img/Experience/graduation-cap.svg" alt="">
+                    <h2>Scolarité</h2>   
                 </div>
                 <div class="container">
                     <h5>STUDI</h5>
@@ -309,8 +323,8 @@
 
             <div class="experience work">
                 <div class="title-exp">
-                    <img src="img/Experience/Mallette.svg" alt="">
-                    <h1>Expériences professionnelles</h1>
+                    <img src="img/Experience/suitcase.svg" alt="">
+                    <h2>Expériences professionnelles</h2>
                 </div>
                 
                 <div class="container">
@@ -348,8 +362,8 @@
 
             <!--Portfolio--> 
     <section id="portfolio" class="fade-in">
-        <h1>Mes projets</h1>
-        <div class="filter-container">
+        <h1>Mes projets</h1> 
+        <!-- <div class="filter-container">
             <label>
                 <input type="checkbox" value="front" class="filter-checkbox" checked />Front
                 <span class="custom-checkbox"></span>
@@ -362,81 +376,101 @@
                 <input type="checkbox" value="fullstack" class="filter-checkbox" checked />Fullstack
                 <span class="custom-checkbox"></span>
             </label>
-        </div>         
-
+        </div>  -->
+    
         <div class="card-container">
-            <div class="card" data-category="front">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Portfolio/Flottibulle.png" alt="Flottibulle">
-                    </div>
-                    <div class="card-back">
-                        <p>Ecole de natation sur Etel</p>
-                        <p>Création d'une maquette responsive et développement sur Wordpress</p>
-                        <a href="https://flottibulle.fr/">https://flottibulle.fr/</a>
-                    </div>
+            
+            <div class="card" id="Flotti" data-category="front">
+                <div class="intro">
+                    <h4>Flottibulle</h4>
+                    <p>Ecole de natation en Bretagne</p>
+                    <ul class="tags">
+                        <li>Wordpress</li>
+                        <li>CSS</li>
+                    </ul>
+                    <ul class="tasks">
+                        <li>Création d'une maquette responsive.</li>
+                        <li>Personnalisation complète d'un thème sur Wordpress.</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                    </ul>
+                    <a href="https://flottibulle.fr/">Voir le site</a>
                 </div>
             </div>
-        
-            <div class="card" data-category="front">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Logo/logoHeader.png" alt="CV">
+
+            <div class="card" id="MB" data-category="front"> 
+                <div class="intro">
+                    <h4>Mon CV en ligne</h4>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <ul class="task">
+                        <li>Création d'une maquette responsive.</li>
+                        <li>Intégration d'une maquette</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                    </ul>
+                     <a href="https://melanie-bruzac.fr/">Voir le site</a>
                     </div>
-                    <div class="card-back">
-                        <p>Mon site CV</p>
-                        <p>Création d'une maquette responsive et intégration en HTML/CSS/Bootstrap/JS </p> 
-                        <a href="melanie-bruzac.fr">melanie-bruzac.fr</a>
-                    </div>
-                </div>
             </div>
-        
-            <div class="card" data-category="front">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Portfolio/QuaiAntique.png" alt="Quai Antique">
-                    </div>
-                    <div class="card-back">
-                        <p>Site vitrine et de réservation pour un restaurant Fictif</p>
-                        <p>Maquettage et intégration d'une maquette responsive.</p>
-                        <p>HTML/CSS/Bootstrap/React.js</p>
-                        <a href="">En cours de développement</a>
-                        
-                    </div>
-                </div>
-            </div>
-        
-            <div class="card" data-category="fullstack">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Portfolio/GarageVParrot.png" alt="Garage V.Parrot">
-                    </div>
-                    <div class="card-back">
-                        <p>Site vitrine pour un garage Fictif</p>
-                        <p>Projet de fin de formation qui ma permis de voir tous les étapes d'un développement fullstack.</p>
-                        <p>HTML/CSS/Bootstrap/Symphony</p>
-                        <a href="https://github.com/Melb56/Garage_V_Parrot">Lien GitHub</a>
-                        
-                    </div>
+
+            <div class="card" id="QA" data-category="front">
+                <div class="intro">
+                    <h4>Quai Antique</h4>
+                    <p>Site vitrine et de réservation pour un restaurant Fictif.</p>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>React.js</li>
+                    </ul>
+                    <ul class="task">
+                        <li>Création d'une maquette responsive.</li>
+                        <li>Intégration d'une maquette</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                    </ul>
+                     <a href="https://github.com/Melb56/QuaiAntique">Voir le dépôt GitHub</a>
                 </div>
             </div> 
-        </div>
+
+            <div class="card" id="GVP" data-category="fullstack">
+                <div class="intro">
+                    <h4>Garage V. Parrot</h4>
+                    <p>Projet de fin de formation qui ma permis de voir tous les étapes d'un développement fullstack.</p>
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Symfony</li>
+                    </ul>
+                    <ul class="task">
+                        <li>Création d'une maquette responsive.</li>
+                        <li>............................</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                        <li>jghtjgniugthrhtrjhjrkjhj;</li>
+                    </ul>
+                     <a href="https://github.com/Melb56/Garage_V_Parrot">Voir le dépôt GitHub </a>
+                </div>
+            </div>
+        </div> 
+        
+
     </section>
 
             <!--Contact-->     
     <section id="contact" class="fade-in">
-        <h1>Contact</h1>
+        <h1>Contactez-moi !</h1>
+        <p> N'hésiter pas à me contacter pour qu'on puisse parler de mon parcours et de mes motivations.</p>
         <div class="info">
             <div class="contact-info">
-                <img src="img/Contact/localisation.png" alt="LogoLocalisation"/>
-                <p>France</p>
+                <img src="img/Contact/email.svg" alt="LogoEmail"/>
+                <a href="mailto:melanie.bruzac@gmail.com">melanie.bruzac@gmail.com</a>
             </div>
             <div class="contact-info">
-                <img src="img/Contact/email.png" alt="LogoEmail"/>
-                <p>melanie.bruzac@gmail.com</p>
-            </div>
-            <div class="contact-info">
-                <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac-4409371b7"><img src="img/Contact/linkedinVertEmpty.svg" alt="LogoLinkedin"/></a>
+                <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac-4409371b7"><img src="img/Contact/linkedin.svg" alt="LogoLinkedin"/></a>
             </div>
         </div>
        
@@ -444,14 +478,17 @@
 
             <!--Flèche-->
    <a href="#" class="scroll-to-top">
-        <span>&#8593;</span>
+        <span><img src="img/chevron-up.svg" alt=""></span>
     </a>         
    
-
+    <div class="between">
+        <img src="img\BeforeFooter.png" alt="">
+    </div>
+    
 
             <!--Footer-->
     <footer>  
-            <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac"><img src="img/linkedinVertFull.svg" alt="Insta"></a>
+            <a href="https://fr.linkedin.com/in/m%C3%A9lanie-bruzac"><img src="img/linkedin-full.svg" alt="Linkedin"></a>
             <p>&copy; Mélanie Bruzac 2024<br>
     </footer>
             

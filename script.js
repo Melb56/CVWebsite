@@ -1,3 +1,19 @@
+    /*Header*/
+    let lastScroll = 10;
+  
+  window.addEventListener('scroll', () =>  {
+    if (window.scrollY < 50) {
+      navbar.style.height = "70px";
+    } else {
+      navbar.style.height = "40px";
+     
+    }
+
+  }); 
+
+      
+    
+    
     
     /* HERO */
 document.addEventListener("DOMContentLoaded", function () {
