@@ -493,9 +493,6 @@ section {
     box-shadow: 10px 10px 20px rgb(165 204 255/ 20%);
 }
 
-.container:hover {
-        transform: scale(1.1);
-}
 
 .container::before {
     content: '';
@@ -716,7 +713,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0px 7px 20px 10px rgba(239, 198, 253, 0.51);
+    box-shadow: 0px 7px 20px 10px rgba(239, 198, 253, 0.2);
     width: 60%;
     padding: 2rem;
     margin: 0 auto;
