@@ -610,6 +610,9 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
     border-radius: 15px; 
 }
 
+#dailybooks {
+    background-image: url(img/Portfolio/LogoDB.png); 
+}
 #Flotti {
     background-image: url(img/Portfolio/Flotti.png); 
 }
@@ -623,6 +626,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
     background-image: url(img/Portfolio/GarageVParrot.png);
     background-size: auto;
 }
+
 
 .img-project {
     background-position: center;
