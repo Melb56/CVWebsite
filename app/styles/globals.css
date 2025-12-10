@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+
+:root {
+  --main: #e6cfc3 ;
+  --text: #000000;
+  --background: #f5efea;
+  --accent: #b76e79;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/font/Nunito-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NunitoBold';
+    src: url('/font/Nunito-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Angelina';
+    src: url('/font/angelina.regular.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0px;
+    color: var(--text);
+}
+
+
+body {
+  font-size: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
