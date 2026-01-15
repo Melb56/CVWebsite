@@ -7,7 +7,7 @@ const Button = () => {
             href='/CV_MelanieBruzac.pdf'
             download='CV_MelanieBruzac.pdf'
             data-aos ='fade-left'>  Télécharger mon CV </a>
-          <Link className='btn' href='#mentions'  data-aos ='fade-left'> Me contacter </Link>
+          <Link className='btn' href='#contact'  data-aos ='fade-left'> Me contacter </Link>
         </div>
   )
 }
