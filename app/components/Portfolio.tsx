@@ -191,6 +191,7 @@ const Portfolio = () => {
             <div className='projet-card' id='cv3'>
                 <div className='front-card' >
                     <h4>Mon CV en ligne</h4>
+                    <p>Version actuelle de mon CV en ligne</p>
                     <div className='tags'>
                         <li>Next.js</li>
                         <li>CSS</li>
