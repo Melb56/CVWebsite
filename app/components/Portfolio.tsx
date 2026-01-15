@@ -239,7 +239,6 @@ const Portfolio = () => {
                     )} 
                 </div>
             </div>
-
             <div className='projet-card' id='cv2'>
                 <div className='front-card'>
                     <h4>Mon CV en ligne</h4>
