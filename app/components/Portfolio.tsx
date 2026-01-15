@@ -277,8 +277,8 @@ const Portfolio = () => {
                                 </div>
                                 <div className='btn-projet'>
                                     <button>
-                                        <a href='https://melanie-bruzac.fr/' target='_blank' rel='noreferrer'>
-                                                Voir le site
+                                        <a href='cv-website-v3.vercel.app' target='_blank' rel='noreferrer'>
+                                            Voir le site
                                         </a>
                                     </button>
                                 </div>
