@@ -190,11 +190,11 @@ const Portfolio = () => {
 
             <div className='projet-card' id='cv3'>
                 <div className='front-card' >
-                    <h4>Mon CV en ligne - version actuelle</h4>
+                    <h4>Mon CV en ligne</h4>
                     <div className='tags'>
                         <li>Next.js</li>
-                        <li>Tailwind</li>
                         <li>CSS</li>
+                        <li>Tailwind</li>
                 </div>
                     <div className='btn-plus'>
                         <button className="see-more-btn" onClick={() => setSelectedProject("cv3")}>
@@ -267,6 +267,56 @@ const Portfolio = () => {
                                         height={100}/>
                                 </div>
                                 <p>Refonte complète de mon CV en ligne, développée en Next.js, avec pour objectif de proposer une présentation claire, moderne et responsive de mon profil, de mes compétences et de mes projets, tout en optimisant l’expérience utilisateur.</p>
+                                <div className='list-tasks'>
+                                    <p>Tâches réalisées :</p>
+                                    <ul className='tasks'>
+                                        <li>Conception d’une maquette responsive</li>
+                                        <li>Développement de l’interface front-end avec Next.js</li>
+                                        <li>Déploiement et mise en ligne sur Vercel</li>
+                                    </ul>
+                                </div>
+                                <div className='btn-projet'>
+                                    <button>
+                                        <a href='https://melanie-bruzac.fr/' target='_blank' rel='noreferrer'>
+                                                Voir le site
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </Overlay>
+                    )} 
+                </div>
+            </div>
+
+            <div className='projet-card' id='cv1'>
+                <div className='front-card'>
+                    <h4>Mon CV en ligne</h4>
+                    <p>Première version actuelle de mon CV en ligne</p>
+                    <div className='tags'>
+                        <li>Javascript</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                    </div>
+                    <div className='btn-plus'>
+                        <button className='see-more-btn' onClick={() => setSelectedProject('cv1')}>
+                            +
+                        </button>
+                    </div>
+                </div>
+                <div className='back-card'>
+                    {selectedProject === 'cv1' && (
+                        <Overlay onClose={() => setSelectedProject(null)} disableBodyScroll>
+                            <div ref={projectRef}>
+                                <h4>Mon CV en ligne - Version 1</h4>
+                                <div className='projet-img'>
+                                    <Image
+                                        src='/image/portfolio/CvVersion1.png'
+                                        alt='CV en ligne'
+                                        width={500}
+                                        height={100}/>
+                                </div>
+                                <p>Création de la première version de mon CV en ligne en HTML, CSS et JavaScript, avec pour objectifs de gagner en visibilité, de présenter mes projets et de me démarquer en tant que développeuse front-end.</p>
                                 <div className='list-tasks'>
                                     <p>Tâches réalisées :</p>
                                     <ul className='tasks'>
