@@ -5,10 +5,16 @@
     background: var(--main);
     padding: 2rem;
     color: var(--text);
+    text-align: center;
 }
 
-/* footer image:hover{
+
+footer image:hover{
     box-shadow: 0px 0px 20px 20px rgba(165, 204, 255, 1);
     background-color: var(--color4);
     border-radius: 15px;
-} */
+}
+
+.footer a:hover {
+    color: var(--accent);
+}

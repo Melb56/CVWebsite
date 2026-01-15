@@ -1,19 +1,9 @@
-/* .overlay-projet {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: var(--background);
-} */
-
 :root {
   --overlay-transition: 300ms;
 }
 
 .overlay-projet {
   position: fixed;
-  background: var(--background);
   inset: 0;
   display: flex;
   align-items: center;
@@ -34,7 +24,6 @@
   opacity: 1;
   transform: scale(1);
   pointer-events: auto;
-  /* background:  rgba(165, 204, 255, .5); */
 }
 
 .content {
@@ -43,15 +32,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--color4);
-  /* padding: 2rem; */
+  background: var(--accent);
   border-radius: 10px;
-  max-width: 100vh;
-  max-height: 100vh;
+  width: 100vh;
+  height: 90vh;
+  padding: 3rem 4rem;
   overflow-y: auto;  
   position: relative;
   transform: translateY(0);
   transition: transform var(--overlay-transition) ease; 
+
 }
 
 .overlay-projet.show .content {
@@ -59,6 +49,55 @@
 }
 .overlay-projet .content {
   transform: translateY(8px); 
+}
+
+.projet-img {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.projet-img img {
+  border-radius: 15px;
+}
+
+
+.tasks {
+  list-style: outside;
+  margin-left: 1.5rem;
+}
+
+.list-tasks p {
+  font-weight: bold;
+  text-align: start;
+  margin-top: 1rem;
+}
+
+.btn-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-projet button {
+    background-color: var(--main);
+    border-radius: 5px;
+    font-weight: bold ;
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(26, 26, 26, .3), 0 1px 3px 1px rgba(26, 26, 26, .15);
+    transition: transform 0.5s ease;
+}
+
+.btn-projet button:hover {
+    background-color: var( --accent) ;
+    transform: translateY(-5px);
+    transition: 0.5s ease;
+    box-shadow: 0 6px 10px rgba(26,26,26,0.15);
+}
+
+.btn-projet a:hover {
+  color: var(--main);
 }
 
 .close {
@@ -70,3 +109,20 @@
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+  .content {
+    justify-content: flex-start;
+    height: 90vh;
+    padding: 2rem 7rem; 
+  }
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} 

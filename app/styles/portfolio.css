@@ -1,0 +1,120 @@
+.projet-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.projet-card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+.front-card h4,
+.back-card h4
+ {
+    text-align: center;
+}
+
+.front-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background: var(--main);
+    padding: 2rem;
+    width: 25rem;
+    height: 20rem;
+    border-radius: 15px;
+}
+
+.front-card p {
+    text-align: center;
+}
+
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.tags li{
+    text-align: center;
+        list-style: none;
+        background: var(--accent);
+        border-radius: 50px;
+        padding: 0.5rem 1rem;
+        color: var(--background);        
+}
+
+.btn-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-more-btn {  
+    padding: 0.5rem 1rem;
+    background: var(--background);
+    color: var(--text);
+    font-weight: bold;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: transform 0.5s ease, background 0.5s ease;
+    box-shadow: 0 1px 2px 0 rgba(26, 26, 26, .3), 0 1px 3px 1px rgba(26, 26, 26, .15);
+}
+
+.see-more-btn:hover {
+    background-color: var(--accent);
+    color: var(--main);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(26,26,26,0.15);
+}
+
+@media (min-width:2560px) {
+    .projet-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* @media (min-width: 1024px) and (max-width: ) */
+
+@media (max-width: 768px) {
+    .projet-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .front-card {
+        justify-content: center;
+        width: 18rem;
+        height: 25rem;
+    }
+
+    .tags {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .projet-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .front-card {
+        width: 18rem;
+        height: 25rem;
+    }
+}
+
+
+

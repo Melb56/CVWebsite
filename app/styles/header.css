@@ -1,0 +1,7 @@
+.logo a {
+    color: var(--accent);
+    font-family: 'Dreaming', sans-serif;
+    font-size: 2rem;
+    /* text-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+}
+

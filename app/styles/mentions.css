@@ -1,0 +1,12 @@
+.mentions li {
+    list-style: outside;
+    margin-left: 1rem;
+}
+
+.mentions div {
+    margin: 3rem;
+}
+
+.mentions h3{
+    text-align: start;
+}

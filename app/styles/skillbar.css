@@ -1,0 +1,25 @@
+.skill {
+  margin-bottom: 1rem;
+}
+
+.skill-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.bar {
+  background: var(--background);
+  height: 10px;
+  width: 100%;
+  max-width: 500px; 
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: var(--accent);
+  width: 0;
+  transition: width 1s ease-in-out;
+}

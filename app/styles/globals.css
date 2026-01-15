@@ -21,8 +21,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Angelina';
-    src: url('/font/angelina.regular.TTF') format('truetype');
+    font-family: 'Dreaming';
+    src: url('/font/dreaming-outloud-regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -30,7 +30,7 @@
 
 
 * {
-    margin: 0px;
+    margin: 0;
     color: var(--text);
 }
 
@@ -38,5 +38,95 @@
 body {
   font-size: 1rem;
   font-family: 'Nunito', sans-serif;
+  background-color: var(--background);
 }
 
+h1 {
+  font-size: 3rem;
+  font-family: 'Dreaming', sans-serif;
+  color: var(--accent);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 3rem; 
+  width: 100%;
+}
+
+    /* text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-family: NunitoBold, sans-serif;
+    font-size: 2rem;
+    display: flex; */
+
+h2:before {
+    content: "";
+    display: absolute;
+    background-color: var(--accent);
+    width: 20%;
+    height: 2px;
+    margin: 1.5rem 2rem;
+    top: 20px;
+    border-radius: 50px;
+}
+
+h2:after {
+    content: "";
+    display: absolute;
+    background-color: var(--accent);
+    width: 20%;
+    height: 2px;
+    margin: 1.5rem 2rem;
+    top: 20px;
+    border-radius: 50px;
+}
+
+
+h3 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#about,
+#skills,
+#experience,
+#projet,
+#contact,
+#mentions {
+    margin: 10rem;
+}
+
+@media (max-width: 768px) {
+  #about,
+  #skills,
+  #experience,
+  #projet,
+  #contact,
+  #mentions {
+    margin: 10rem 1rem;
+  }
+
+ 
+
+  h2::before {
+     display: none;
+  }
+  h2::after {
+     display: none;
+  }
+  
+}

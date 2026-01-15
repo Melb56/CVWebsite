@@ -1,9 +1,7 @@
-"use client";
+ 'use client';
 
-import  "../styles/overlay.css";
-
-import { ReactNode, MouseEvent, useEffect, useState, useCallback } from "react";
-import "../styles/overlay.css";
+import { ReactNode, MouseEvent, useEffect, useState, useCallback } from 'react';
+import '../styles/overlay.css';
 
 type OverlayProps = {
   children: ReactNode;
@@ -24,7 +22,7 @@ export default function Overlay({
     const id = window.setTimeout(() => setVisible(true), 10);
 
     const prevOverflow = document.body.style.overflow;
-    if (disableBodyScroll) document.body.style.overflow = "hidden";
+    if (disableBodyScroll) document.body.style.overflow = 'hidden';
 
     return () => {
       clearTimeout(id);
@@ -46,22 +44,22 @@ export default function Overlay({
 
     useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") handleCloseRequest();
+      if (e.key === 'Escape') handleCloseRequest();
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
   }, [handleCloseRequest]);
 
 
   return (
     <div
-      className={`overlay-projet ${visible ? "show" : ""}`}
+      className={`overlay-projet ${visible ? 'show' : ''}`}
       onClick={handleCloseRequest}
-      role="dialog"
-      aria-modal="true"
+      role='dialog'
+      aria-modal='true'
     >
-      <div className="content" onClick={handleContentClick}>
-        <button className="close" onClick={handleCloseRequest} aria-label="Fermer">
+      <div className='content' onClick={handleContentClick}>
+        <button className='close' onClick={handleCloseRequest} aria-label='Fermer'>
           ✕
         </button>
         {children}

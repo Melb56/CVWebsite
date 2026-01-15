@@ -1,0 +1,75 @@
+#contact {
+   
+}
+
+
+.intro-contact p {
+    margin: 1rem; 
+    text-align: center;
+}
+
+.job {
+    font-weight: bold;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.text-contact p {
+    font-family: 'Dreaming', sans-serif;
+    font-size: 1.75rem;
+
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;  
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 2rem;
+    gap: 4rem; 
+}
+
+.info a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;  
+}
+
+.form-container {  
+    min-width: 280px; 
+    width: 500px;
+
+}
+
+
+
+@media (max-width: 1169px) {
+  .info {
+    padding: 2rem 0;
+  }
+  
+  .form-container {  
+    max-width: 300px;
+
+}
+}
+
+
