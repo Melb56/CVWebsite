@@ -204,39 +204,35 @@ const Portfolio = () => {
 
                     
                 </div>
-                <div className='back-card'>
-                    {selectedProject === "cv3" && (
+                <div className='back-card' ref={projectRef}>
+                    {selectedProject === 'cv3' && (
                         <Overlay onClose={() => setSelectedProject(null)} disableBodyScroll>
-                            <div ref={projectRef}>
-                                <h4>Mon CV en ligne</h4>
-                                <div className='portfolio-img'>
-                                    <Image
-                                        src="/img/Portfolio/CvVersion2.png"
-                                        alt="CV1"
-                                        width={500}
-                                        height={50}
-                                    />
-                                </div>
-                                <p>Refonte complète de mon CV en ligne, développée en Next.js, avec pour objectif de proposer une présentation claire, moderne et responsive de mon profil, de mes compétences et de mes projets, tout en optimisant l’expérience utilisateur.</p>
-                                <div className='list-tasks'>
-                                    <p>Tâches réalisées :</p>
-                                    <ul className='tasks'>
-                                        <li>Elaboration d&apos;une maquette responsive.</li>
-                                        <li>Développement du front</li>
-                                        <li>Mise en ligne</li>
-                                    </ul>
-                                </div>
-                                <div className="btn-projet">
-                                    <button>
-                                        <a href="https://melanie-bruzac.fr/" target="_blank" rel="noreferrer">
-                                            Voir le site
-                                        </a>
-                                    </button>
-                                </div>                                
+                            <h4>Mon CV en ligne - Version actuelle</h4>
+                            <div className='projet-img'>
+                                <Image
+                                    src='/image/portfolio/CvVersion3.png'
+                                    alt='CV en ligne'
+                                    width={500}
+                                    height={100}/>
                             </div>
-
+                            <p>Refonte complète de mon CV en ligne, développée en Next.js, avec pour objectif de proposer une présentation claire, moderne et responsive de mon profil, de mes compétences et de mes projets, tout en optimisant l’expérience utilisateur.</p>
+                            <div className='list-tasks'>
+                                <p>Tâches réalisées :</p>
+                                <ul className='tasks'>
+                                    <li>Conception <a className="underline" href="https://www.canva.com/design/DAG6cxeyaxo/e0RZbVLutBNFtkPRFRm_hQ/view?utm_content=DAG6cxeyaxo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7c582087c9" target="_blank" rel="noreferrer">une maquette responsive</a></li>
+                                    <li>Développement de l’interface front-end avec Next.js</li>
+                                    <li>Déploiement et mise en ligne sur Vercel</li>
+                                </ul>
+                            </div>
+                            <div className='btn-projet'>
+                                <button>
+                                    <a href='https://melanie-bruzac.fr/' target='_blank' rel='noreferrer'>
+                                            Voir le site
+                                    </a>
+                                </button>
+                            </div>
                         </Overlay>
-                    )}     
+                    )} 
                 </div>
             </div>
 
