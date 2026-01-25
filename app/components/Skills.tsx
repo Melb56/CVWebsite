@@ -19,7 +19,7 @@ const Skills = () => {
                         <p>React.js</p>
                     </div>
                     <div className='skills-item'>
-                        <p>Netx.js</p>
+                        <p>Next.js</p>
                     </div>
                     <div className='skills-item'>
                         <p>Javascript</p>
