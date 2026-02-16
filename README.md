@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CV en ligne
 
-## Getting Started
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Portfolio personnel développé avec Next.js afin de présenter mon profil, mes compétences et mes projets web.
+L’objectif de ce site est de proposer une vitrine moderne, performante et responsive mettant en avant mon expertise front-end et mon univers créatif.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Stack technique
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js 16
+- React 19
+- TypeScript
+- TailwindCSS 4
+- AOS (animations on scroll)
+- Typed.js (effet machine à écrire)
+- API Routes Next.js
+- Nodemailer (formulaire de contact)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Fonctionnalités
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Interface responsive et desktop-first
+- Animations fluides avec AOS
+- Effets de texte dynamique avec Typed.js
+- Formulaire de contact avec envoi d’email
+- Optimisation SEO et performances
+- Architecture moderne basée sur App Router
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Objectifs du projet
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Mettre en avant mes projets
+- Présenter mes compétences front-end et intégration web
+- Proposer une expérience utilisateur claire et immersive
+- Servir de support à mes candidatures professionnelles
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Installation
+
+### Cloner le repo git clone 
+https://github.com/ton-username/portfolio.git 
+
+### Aller dans le projet 
+cd portfolio 
+
+### Installer les dépendances 
+npm install 
+
+### Lancer le serveur de
+dev npm run dev

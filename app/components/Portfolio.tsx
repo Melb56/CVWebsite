@@ -27,6 +27,65 @@ const Portfolio = () => {
         <h2 data-aos="fade-down" data-aos-duration="1500">Mes projets</h2> 
 
         <div className='projet-container' data-aos="fade-right" data-aos-duration="1500">
+            
+            <div className='projet-card' id='daily'>
+                <div className='front-card'>
+                    <h4>Daily Books</h4>
+                    <p>Répertoire de livres EN COURS DE DEVELOPPEMENT</p>
+                    <div className='tags'>
+                        <li>Next.js</li>
+                        <li>SCSS</li>
+                        <li>Prisma</li>
+                    </div>
+                    <div className='btn-plus'>
+                        <button className='see-more-btn' onClick={() => setSelectedProject('daily')}>
+                            +
+                        </button>
+                    </div>
+                </div>
+                <div className='back-card'>
+                    {selectedProject === 'daily' && (
+                        <Overlay onClose={() => setSelectedProject(null)} disableBodyScroll>
+                            <div className='back' ref={projectRef}>
+                                <h4>Daily Books</h4>
+                                <div className='projet-img'>
+                                    <Image
+                                        src='/image/portfolio/LogoDB.png' 
+                                        alt='Daily Books'
+                                        width={200}
+                                        height={100}/>
+                                </div>
+                                <p>Daily Books est une application web fullstack permettant de gérer, organiser et explorer une bibliothèque de livres. Le projet met l’accent sur une architecture moderne avec Next.js App Router, une authentification sécurisée et un espace admin complet pour la gestion des contenus. <br /> 
+                                Objectifs du projet : Concevoir une application performante et maintenable, mettre en pratique une architecture Next.js moderne, développer une expérience utilisateur fluide autour de la gestion de livres.</p>
+                                <div className='list-tasks'>
+                                    <p>Tâches réalisées :</p>
+                                    <ul className='tasks'>
+                                        <li>Conception d’<a className='underline' href="https://www.figma.com/design/CEDn8qU5gOYapVNEMlQn9F/Daily-Books?node-id=0-1&t=M9XYbw1LIfkcftOW-1" target="_blank" rel="noreferrer">une maquette</a> et d’une interface responsive orientée mobile-first</li>
+                                        <li>Développement et structuration de la base de données avec Prisma ORM et MySQL</li>
+                                        <li>Mise en place de l’authentification sécurisée avec NextAuth.js (gestion des sessions et accès administrateur)</li>
+                                        <li>Intégration des pages principales et des composants UI du projet</li>
+                                        <li>Gestion des routes, de la navigation et de l’affichage dynamique des contenus</li>
+                                        <li>Déploiement, configuration et mise en ligne de l’application sur Vercel</li>
+                                    </ul>
+                                </div>
+                                <div className='btn-projet'>
+                                    <button>
+                                        <a href='https://daily-books.vercel.app/' target='_blank' rel='noreferrer'>
+                                                Voir le site
+                                        </a>
+                                    </button>
+                                    <button>
+                                        <a href='https://github.com/Melb56/daily-books' target='_blank' rel='noreferrer'>
+                                                GitHub
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </Overlay>
+                    )} 
+                </div>
+            </div>
 
             <div className='projet-card' id='osteo'>
                 <div className='front-card' >
@@ -81,58 +140,6 @@ const Portfolio = () => {
                             
                         </Overlay>
                     )}     
-                </div>
-            </div>
-            
-            <div className='projet-card' id='daily'>
-                <div className='front-card'>
-                    <h4>Daily Books</h4>
-                    <p>Répertoire de livres EN COURS DE DEVELOPPEMENT</p>
-                    <div className='tags'>
-                        <li>Next.js</li>
-                        <li>CSS</li>
-                        <li>Prisma</li>
-                    </div>
-                    <div className='btn-plus'>
-                        <button className='see-more-btn' onClick={() => setSelectedProject('daily')}>
-                            +
-                        </button>
-                    </div>
-                </div>
-                <div className='back-card'>
-                    {selectedProject === 'daily' && (
-                        <Overlay onClose={() => setSelectedProject(null)} disableBodyScroll>
-                            <div className='back' ref={projectRef}>
-                                <h4>Daily Books</h4>
-                                <div className='projet-img'>
-                                    <Image
-                                        src='/image/portfolio/LogoDB.png'
-                                        alt='Daily Books'
-                                        width={200}
-                                        height={100}/>
-                                </div>
-                                <p>Daily Books est une application web développée avec Next.js et Prisma, permettant aux utilisateurs de créer un compte pour gérer leur propre répertoire de livres. L’application offre la possibilité d’ajouter, modifier et supprimer des livres, avec un système de filtrage par thème. Des fonctionnalités avancées sont également en cours de développement, comme les listes de souhaits (à lire, favoris, à relire, etc.).</p>
-                                <div className='list-tasks'>
-                                    <p>Tâches réalisées :</p>
-                                    <ul className='tasks'>
-                                        <li>Conception d’<a className='underline' href="https://www.figma.com/design/CEDn8qU5gOYapVNEMlQn9F/Daily-Books?node-id=0-1&t=M9XYbw1LIfkcftOW-1" target="_blank" rel="noreferrer">une maquette responsive</a></li>
-                                        <li>Développement de la base de données avec Prisma (MySQL)</li>
-                                        <li>Mise en place de l’authentification avec NextAuth.js</li>
-                                        <li>Développement de l’interface front-end</li>
-                                        <li>Déploiement et mise en ligne sur Vercel</li>
-                                    </ul>
-                                </div>
-                                <div className='btn-projet'>
-                                    <button>
-                                    <a href='https://daily-books.vercel.app/' target='_blank' rel='noreferrer'>
-                                            Voir le site
-                                        </a>
-                                    </button>
-                                </div>
-                            </div>
-
-                        </Overlay>
-                    )} 
                 </div>
             </div>
             
@@ -201,9 +208,7 @@ const Portfolio = () => {
                         <button className="see-more-btn" onClick={() => setSelectedProject("cv3")}>
                             +
                         </button>
-                    </div>
-
-                    
+                    </div>    
                 </div>
                 <div className='back-card'>
                     {selectedProject === 'cv3' && (
@@ -239,6 +244,7 @@ const Portfolio = () => {
                     )} 
                 </div>
             </div>
+
             <div className='projet-card' id='cv2'>
                 <div className='front-card'>
                     <h4>Mon CV en ligne</h4>

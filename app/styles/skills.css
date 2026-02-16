@@ -6,7 +6,6 @@
     justify-content: center;
     justify-items: center;
     gap: 3rem;
-    margin: 0 20rem;
 }
 
 .skills-card {
@@ -68,6 +67,7 @@
     .skills {
         grid-template-columns: 1fr; 
         justify-content: center;
+        
     }
 
     .skills-container {

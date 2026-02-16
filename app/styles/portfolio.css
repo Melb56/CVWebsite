@@ -61,6 +61,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .see-more-btn {  
     padding: 0.5rem 1rem;
     background: var(--background);
