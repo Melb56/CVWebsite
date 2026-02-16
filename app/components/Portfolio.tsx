@@ -31,7 +31,7 @@ const Portfolio = () => {
             <div className='projet-card' id='daily'>
                 <div className='front-card'>
                     <h4>Daily Books</h4>
-                    <p>Répertoire de livres EN COURS DE DEVELOPPEMENT</p>
+                    <p>Répertoire de livres</p>
                     <div className='tags'>
                         <li>Next.js</li>
                         <li>SCSS</li>
