@@ -9,7 +9,6 @@ const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
-      //Effet pour diminuer la navbar au scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY >= 50);
@@ -19,7 +18,6 @@ const Header: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-      //Effet pour détecter la section visible
   useEffect(() => {
   const sections = document.querySelectorAll('section[id]');
 

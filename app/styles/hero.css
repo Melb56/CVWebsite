@@ -16,6 +16,19 @@
     gap: 2rem;
 }
 
+.sous-titre {
+    font-size: 2rem;
+}
+
+.competence {
+    font-size: 1.5rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
 #typed-output {
     font-family: 'Dreaming', sans-serif;
     color: var(--color2);

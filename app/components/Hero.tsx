@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
@@ -7,36 +7,32 @@ import '../styles/hero.css';
 import Button from './Button';
 
 const Hero = () => {
-  const typedRef = useRef<HTMLDivElement>(null)
+  const typedRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const options = {
-      strings: [
-        'Créative',
-        'Motivée',
-        'Bienvenue !',
-      ],
+    if (!typedRef.current) return;
+
+    const typed = new Typed(typedRef.current, {
+      strings: ['Bienvenue !'],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true,
       showCursor: false,
-    }
+    });
 
-    const typed = new Typed(typedRef.current, options)
-
-    return () => {
-      typed.destroy()
-    }
-  }, [])
+    return () => typed.destroy();
+  }, []);
 
   return (
     <section id='hero-area'>
       <div className='hero'>
 
         <div className='hero-content' data-aos='fade-right' data-aos-duration='1500'>
-            <h3>Bonjour, je suis</h3>
-            <h1>Mélanie Bruzac</h1>
-            <h3 className='poste'>Développeuse Front-end React</h3>
+            <h3>Mélanie Bruzac</h3>
+            <h1 className='poste'>Développeuse React & Next.js</h1>  
+            <p className='sous-titre'>Interfaces modernes et applications web</p>
+            <p className='competence'>Next.js • Symfony • MySQL • UI responsive</p>
+            <p className='description'>Création d’interfaces performantes et d’applications web modernes.</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>
         </div>

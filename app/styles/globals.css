@@ -34,6 +34,10 @@
     color: var(--text);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   font-size: 1rem;
@@ -58,13 +62,6 @@ h2 {
   width: 100%;
 }
 
-    /* text-align: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 2rem;
-    font-family: NunitoBold, sans-serif;
-    font-size: 2rem;
-    display: flex; */
 
 h2:before {
     content: "";
