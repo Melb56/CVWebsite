@@ -40,7 +40,7 @@ L’objectif de ce site est de proposer une vitrine moderne, performante et resp
 ## Installation
 
 ### Cloner le repo git clone 
-https://github.com/ton-username/portfolio.git 
+https://github.com/Melb56/CVWebsite.git
 
 ### Aller dans le projet 
 cd portfolio 

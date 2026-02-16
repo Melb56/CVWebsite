@@ -237,6 +237,11 @@ const Portfolio = () => {
                                                 Voir le site
                                         </a>
                                     </button>
+                                    <button>
+                                        <a href='https://github.com/Melb56/CVWebsite' target='_blank' rel='noreferrer'>
+                                                Github
+                                        </a>
+                                    </button>                                    
                                 </div>
                             </div>
 
