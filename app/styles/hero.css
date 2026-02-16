@@ -7,6 +7,8 @@
     align-items: center;
     min-height: 100vh;
     padding: 5rem 0; 
+
+    text-align: center;
 }
 
 .hero-content {
@@ -14,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+
 }
 
 .sous-titre {

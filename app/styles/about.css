@@ -7,3 +7,8 @@
 .about p {
     text-align: center;
 }
+
+.about-text {
+    margin: 0 2rem;
+}
+

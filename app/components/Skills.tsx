@@ -8,12 +8,12 @@ const Skills = () => {
   return (
     <section id='skills' className='fade-in'>
         <h2  data-aos='fade-down' data-aos-duration='1500'>Mes Compétences</h2>
+        <p className='text-skills'>Stack principale : React • Next.js • Symfony • MySQL • SCSS</p>
         <div className='skills'>
 
                 {/* FRONT-END */}
             <div className='skills-card' data-aos='fade-right' data-aos-duration='1500'>
                 <h3>Front-end</h3>
-                <p>Création et intégration de sites web responsive, moderne et sécurisé.</p>
                 <div className='skills-container'>
                     <div className='skills-item'>
                         <p>React.js</p>
@@ -42,20 +42,13 @@ const Skills = () => {
                     <div className='skills-item'>
                         <p>Tailwind</p>
                     </div>
-                    <div className='skills-item'>
-                        <p>jQuery</p>
-                    </div>
                 </div>
             </div>
 
-                {/* BACK-END */}
+                {/* API & Data */}
             <div className='skills-card'  data-aos='fade-left' data-aos-duration='1500'>
-                <h3>Back-end</h3>
-                <p>Création et gestion de données (CRUD).</p>
+                <h3>API & Data</h3>
                 <div className='skills-container'>
-                    <div className='skills-item'>
-                        <p>PHP</p>
-                    </div>
                     <div className='skills-item'>
                         <p>Symfony</p>
                     </div>
@@ -68,14 +61,39 @@ const Skills = () => {
                     <div className='skills-item'>
                         <p>Prisma</p>
                     </div>
+                    <div className='skills-item'>
+                        <p>Authentification</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>CRUD</p>
+                    </div>
                 </div>
 
             </div>
 
-                {/* Outils&Plateformes */}
+                {/* Qualité & Performance */}
             <div className='skills-card' data-aos='fade-right' data-aos-duration='1500'>
-                <h3>Outils & Plateformes</h3>
-                <p>Versionnage des projet, création de maquettes et de prototypes, responsives et centrées utilisateur, création et édition de thèmes Wordpress.</p>
+                <h3>Qualité & Performance</h3>
+                <div className='skills-container quality'>
+                    <div className='skills-item'>
+                        <p>Accessibilité WCAG</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Optimisation des performances</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Standards W3C</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>SEO</p>
+                    </div>
+
+                </div>
+            </div>
+
+                {/* Outils & Environnement */}
+            <div className='skills-card' data-aos='fade-left' data-aos-duration='1500'>
+                <h3>Outils & Environnement</h3>
                 <div className='skills-container'>
                     <div className='skills-item'>
                         <p>Git</p>
@@ -84,22 +102,26 @@ const Skills = () => {
                         <p>GitHub</p>
                     </div>
                     <div className='skills-item'>
-                        <p>Xampp</p>
+                        <p>Figma</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Webpack</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Jest</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Cypress</p>
                     </div>
                     <div className='skills-item'>
                         <p>Wordpress</p>
                     </div>
-                    <div className='skills-item'>
-                        <p>Figma</p>
-                    </div>
-                    <div className='skills-item'>
-                        <p>Canva</p>
-                    </div>
                 </div>
             </div>
-
-                 {/* LANGUES */}
-            <div className='skills-card'  data-aos='fade-left' data-aos-duration='1500'>
+        </div>
+                {/* LANGUES */}
+        <div className='langue'>
+            <div className='skills-card'  data-aos='fade-right' data-aos-duration='1500'>
                 <h3>Langues</h3>
                 <div className='skills-container-langue'>
                     <div className='skills-item-langue'>
@@ -120,9 +142,9 @@ const Skills = () => {
                     </div>
                 </div>
 
-            </div>
-
-        </div>
+            </div>         
+        </div>     
+      
 
     </section>
   )

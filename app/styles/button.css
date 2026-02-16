@@ -1,5 +1,7 @@
 .button {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn {

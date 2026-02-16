@@ -31,7 +31,7 @@ const Hero = () => {
             <h3>Mélanie Bruzac</h3>
             <h1 className='poste'>Développeuse React & Next.js</h1>  
             <p className='sous-titre'>Interfaces modernes et applications web</p>
-            <p className='competence'>Next.js • Symfony • MySQL • UI responsive</p>
+            <p className='competence'>Next.js • Symfony • MySQL • UI moderne</p>
             <p className='description'>Création d’interfaces performantes et d’applications web modernes.</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>

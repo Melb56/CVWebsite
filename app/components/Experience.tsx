@@ -26,11 +26,14 @@ const Experience = () => {
                     <h4>Développeuse Web Freelance</h4>
                     <p className='date'>Mai 2025 à maintenant</p>
                     <ul>
-                        <li>Conception et développement de sites web modernes et responsives.</li>
-                        <li>Intégration de maquettes UI/UX.</li>
-                        <li>Optimisation des performances et SEO.</li>
+                        <li>Conception d’interfaces et de fonctionnalités web.</li>
+                        <li>Développement d’interfaces responsives et intégration de maquettes UI modernes.</li>
+                        <li>Mise en place de fonctionnalités dynamiques connectées à API et gestion de données.</li>
+                        <li>Optimisation des performances front et SEO.</li>
                         <li>Maintenance et gestion de contenu.</li>
-                        <li>Déploiement sur OVH ou Vercel.</li>
+                        <li>Déploiement et mise en ligne d’applications sur Vercel et environnements d’hébergement web.</li>
+                        <li>Réalisation et déploiement de sites WordPress complets, avec utilisation de builders et ajustements spécifiques.</li>
+                        <li>Maintenance évolutive et mises à jour de contenus.</li>
                     </ul>
                 </div>
                 <div className='experience-item'>

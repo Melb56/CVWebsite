@@ -7,10 +7,10 @@ const about = () => {
   return (
     <section className='about' id='about'>
         <h2 data-aos ='fade-left' data-aos-duration='1000'> À Propos De Moi</h2>
-        <p data-aos ='fade-left'>
-Passionnée par le web et les interfaces interactives, j’aime donner vie à des idées grâce au code. Ce qui m’anime, c’est la recherche du bon équilibre entre design, fluidité et performance pour créer des expériences utilisateur à la fois belles et intuitives.  <br/>
-Après une formation complète en développement web fullstack, j’ai choisi de me spécialiser dans le front-end, où je peux exprimer ma créativité tout en restant proche de la technique. Je travaille avec React, Next.js, HTML, CSS et JavaScript, tout en continuant à explorer de nouvelles approches et technologies. <br/> 
-Curieuse, autonome et toujours prête à apprendre, j’aime les environnements dynamiques où les idées circulent librement.</p>
+        <p className='about-text' data-aos ='fade-left'>
+Développeuse web spécialisée en React et Next.js, je conçois des interfaces modernes et des applications web interactives, avec une attention particulière portée à la qualité du code, à la performance et à l’expérience utilisateur. <br />
+À travers mes projets, je développe des fonctionnalités concrètes autour d’API, d’authentification et de gestion de données, en utilisant notamment Next.js, Symfony et MySQL pour structurer des applications web modernes et évolutives. <br />
+Aujourd’hui, je souhaite rejoindre une entreprise pour évoluer en équipe, contribuer à des projets ambitieux et continuer à renforcer mes compétences techniques dans un environnement stimulant.</p>
         <Button/>
     </section>
   )
