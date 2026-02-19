@@ -8,7 +8,8 @@ const Skills = () => {
   return (
     <section id='skills' className='fade-in'>
         <h2  data-aos='fade-down' data-aos-duration='1500'>Mes Compétences</h2>
-        <p className='text-skills'>Stack principale : React • Next.js • Symfony • MySQL • SCSS</p>
+        <p className='text-skills'>Stack principale : React • Next.js • JavaScript • SCSS <br />
+        Compléments : API/REST • NextAuth • Symfony • MySQL</p>
         <div className='skills'>
 
                 {/* FRONT-END */}
@@ -25,9 +26,6 @@ const Skills = () => {
                         <p>Javascript</p>
                     </div>
                     <div className='skills-item'>
-                        <p>Typescript</p>
-                    </div>
-                    <div className='skills-item'>
                         <p>HTML</p>
                     </div>
                     <div className='skills-item'>
@@ -42,6 +40,15 @@ const Skills = () => {
                     <div className='skills-item'>
                         <p>Tailwind</p>
                     </div>
+                <div className='skills-item'>
+                        <p>Responsive design</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Intégration UI</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>jQuery</p>
+                    </div>
                 </div>
             </div>
 
@@ -50,16 +57,7 @@ const Skills = () => {
                 <h3>API & Data</h3>
                 <div className='skills-container'>
                     <div className='skills-item'>
-                        <p>Symfony</p>
-                    </div>
-                    <div className='skills-item'>
-                        <p>MySQL</p>
-                    </div>
-                    <div className='skills-item'>
-                        <p>Node.js</p>
-                    </div>
-                    <div className='skills-item'>
-                        <p>Prisma</p>
+                        <p>API REST</p>
                     </div>
                     <div className='skills-item'>
                         <p>Authentification</p>
@@ -67,14 +65,26 @@ const Skills = () => {
                     <div className='skills-item'>
                         <p>CRUD</p>
                     </div>
+                    <div className='skills-item'>
+                        <p>Symfony</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>MySQL</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Prisma</p>
+                    </div>
                 </div>
 
             </div>
 
-                {/* Qualité & Performance */}
+                {/* Interfaces & Expérience utilisateur */}
             <div className='skills-card' data-aos='fade-right' data-aos-duration='1500'>
-                <h3>Qualité & Performance</h3>
+                <h3>UI & Expérience</h3>
                 <div className='skills-container quality'>
+                    <div className='skills-item'>
+                        <p>Intégration de maquettes</p>
+                    </div>
                     <div className='skills-item'>
                         <p>Accessibilité WCAG</p>
                     </div>
@@ -102,10 +112,13 @@ const Skills = () => {
                         <p>GitHub</p>
                     </div>
                     <div className='skills-item'>
-                        <p>Figma</p>
+                        <p>Node.js</p>
                     </div>
                     <div className='skills-item'>
                         <p>Webpack</p>
+                    </div>                   
+                    <div className='skills-item'>
+                        <p>Figma</p>
                     </div>
                     <div className='skills-item'>
                         <p>Jest</p>

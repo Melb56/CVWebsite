@@ -9,8 +9,8 @@ const Contact = () => {
         <h2 data-aos='fade-down' data-aos-duration='1500'>Contactez-moi !</h2>
         <div className='intro-contact' data-aos='fade-right' data-aos-duration='1500'>
           <p >À la recherche d’un poste de</p>
-          <p className='job' >Développeuse React & Next.js</p>   
-          <p >pour contribuer à des applications web modernes, en agence, ESN ou startup. </p>
+          <p className='job'>Développeuse Front-end JavaScript (React / Next.js)</p>   
+          <p >pour concevoir des interfaces modernes, contribuer à des projets concrets et m’impliquer au sein d’une agence, d’une ESN ou d’une startup.</p>
           <div className='text-contact' ><p> Je serais ravie d’échanger avec vous de mon parcours et ma motivation.</p></div>
         </div>
 
