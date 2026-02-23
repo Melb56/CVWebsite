@@ -31,7 +31,7 @@ const Hero = () => {
             <h3>Mélanie Bruzac</h3>
             <h1 className='poste'>Développeuse Front-end JavaScript – React / Next.js</h1>  
             <p className='competence'>React • Next.js • Symfony • MySQL • Interfaces modernes • API</p>
-            <p className='description'>Création d’interfaces performantes et développement d’applications web orientées expérience utilisateur, avec une compréhension du back-end pour concevoir des solutions complètes et cohérentes.</p>
+            <p className='description'>Création d’interfaces performantes et développement d’applications web, avec une compréhension du back-end pour concevoir des solutions complètes et cohérentes.</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>
         </div>
