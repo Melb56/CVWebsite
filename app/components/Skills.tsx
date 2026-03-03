@@ -9,7 +9,7 @@ const Skills = () => {
     <section id='skills' className='fade-in'>
         <h2  data-aos='fade-down' data-aos-duration='1500'>Mes Compétences</h2>
         <p className='text-skills'>Stack principale : React • Next.js • JavaScript • SCSS <br />
-        Compléments : API/REST • NextAuth • Symfony • MySQL</p>
+        Compléments : API REST • NextAuth • Symfony • MySQL</p>
         <div className='skills'>
 
                 {/* FRONT-END */}
