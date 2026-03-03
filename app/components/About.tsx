@@ -8,12 +8,11 @@ const about = () => {
     <section className='about' id='about'>
         <h2 data-aos ='fade-left' data-aos-duration='1000'>À Propos De Moi</h2>
         <p className='about-text' data-aos ='fade-left'>
-Développeuse front-end spécialisée en JavaScript et React / Next.js, je conçois des applications web en partant des enjeux métier pour construire des interfaces performantes, structurées et évolutives.<br />
-Je traduis les besoins fonctionnels en architecture front-end claire, j’organise les composants pour garantir la maintenabilité, et j’intègre des API avec une attention particulière portée à la gestion des données et des états applicatifs. <br />
-À travers mes projets, j’ai développé des fonctionnalités autour de l’authentification, de la structuration server/client components et de l’optimisation des performances, en m’appuyant sur Next.js, Symfony et MySQL. <br />
-Habituée aux environnements JavaScript modernes, j’assimile rapidement de nouvelles technologies ou méthodologies lorsque le projet l’exige, tout en maintenant un haut niveau d’exigence sur la qualité du code, la cohérence architecturale et la performance. <br />
-Aujourd’hui, je souhaite intégrer une équipe exigeante afin de contribuer à des applications maintenables, scalables et orientées impact utilisateur, tout en continuant à élever mon niveau technique.
-        </p>
+Développeuse front-end spécialisée en React / Next.js et WordPress, je conçois des interfaces et applications web performantes en combinant expérience utilisateur, performance technique et SEO.<br />
+Je développe des applications structurées, j’intègre des API et je veille à la qualité d’intégration front/back afin de livrer des solutions fiables et maintenables. <br />
+À travers mes projets, j’ai travaillé sur l’authentification, la structuration modulaire des composants, l’optimisation des performances (Core Web Vitals) et la personnalisation de sites WordPress orientés performance et référencement. <br />
+Habituée aux environnements JavaScript modernes, je m’adapte rapidement aux contextes agence, ESN ou startup, avec une attention constante portée à la qualité du code, à la maintenabilité et à l’efficacité des livraisons. <br />
+Je recherche aujourd’hui un environnement exigeant me permettant de contribuer à des projets web concrets, tout en continuant à renforcer mon expertise technique.</p>
         <Button/>
     </section>
   )

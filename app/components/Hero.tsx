@@ -29,9 +29,9 @@ const Hero = () => {
 
         <div className='hero-content' data-aos='fade-right' data-aos-duration='1500'>
             <h3>Mélanie Bruzac</h3>
-            <h1 className='poste'>Développeuse Front-end</h1>  
-            <p className='competence'>JavaScript • React • Next.js • Symfony • MySQL • Interfaces modernes • API</p>
-            <p className='description'>Création d’interfaces performantes et développement d’applications web, avec une compréhension du back-end pour concevoir des solutions complètes et cohérentes.</p>
+            <h1 className='poste'>Développeuse front-end orientée qualité & expérience utilisateur</h1>  
+            <p className='competence'>React • Next.js • WordPress • UI/UX • Performance • SEO • API</p>
+            <p className='description'>Je conçois des sites et interfaces web alliant expérience utilisateur, performance technique et optimisation SEO, avec une compréhension des enjeux back-end pour livrer des solutions cohérentes et maintenables.</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>
         </div>
