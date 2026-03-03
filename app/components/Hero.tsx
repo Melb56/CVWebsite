@@ -29,8 +29,8 @@ const Hero = () => {
 
         <div className='hero-content' data-aos='fade-right' data-aos-duration='1500'>
             <h3>Mélanie Bruzac</h3>
-            <h1 className='poste'>Développeuse Front-end – JavaScript</h1>  
-            <p className='competence'>React • Next.js • Symfony • MySQL • Interfaces modernes • API</p>
+            <h1 className='poste'>Développeuse Front-end</h1>  
+            <p className='competence'>JavaScript • React • Next.js • Symfony • MySQL • Interfaces modernes • API</p>
             <p className='description'>Création d’interfaces performantes et développement d’applications web, avec une compréhension du back-end pour concevoir des solutions complètes et cohérentes.</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>

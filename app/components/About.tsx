@@ -8,9 +8,11 @@ const about = () => {
     <section className='about' id='about'>
         <h2 data-aos ='fade-left' data-aos-duration='1000'>À Propos De Moi</h2>
         <p className='about-text' data-aos ='fade-left'>
-Développeuse front-end spécialisée en JavaScript, je conçois des applications web modernes en transformant des besoins fonctionnels en interfaces performantes, maintenables et orientées utilisateur. J’interviens sur plusieurs étapes du cycle de vie applicatif : compréhension des enjeux métier, conception technique, développement front-end en React, intégration d’API et amélioration continue de la qualité et des performances.<br />
-À travers mes projets, j’ai travaillé sur des fonctionnalités concrètes autour de la gestion de données, de l’authentification et de la structuration d’applications, en utilisant notamment Next.js, Symfony et MySQL. J’accorde une attention particulière à la clarté du code, à la cohérence des interfaces et à la collaboration avec les équipes produit et techniques. <br />
-À l’aise dans des environnements JavaScript modernes, je m’adapte aussi bien aux contextes d’agence, d’ESN ou de startup, où réactivité, rigueur technique et vision produit doivent avancer ensemble. Aujourd’hui, je souhaite rejoindre une équipe pour contribuer à des projets web concrets, progresser techniquement et participer à la construction d’applications fiables et durables.
+Développeuse front-end spécialisée en JavaScript et React / Next.js, je conçois des applications web en partant des enjeux métier pour construire des interfaces performantes, structurées et évolutives.<br />
+Je traduis les besoins fonctionnels en architecture front-end claire, j’organise les composants pour garantir la maintenabilité, et j’intègre des API avec une attention particulière portée à la gestion des données et des états applicatifs. <br />
+À travers mes projets, j’ai développé des fonctionnalités autour de l’authentification, de la structuration server/client components et de l’optimisation des performances, en m’appuyant sur Next.js, Symfony et MySQL. <br />
+Habituée aux environnements JavaScript modernes, j’assimile rapidement de nouvelles technologies ou méthodologies lorsque le projet l’exige, tout en maintenant un haut niveau d’exigence sur la qualité du code, la cohérence architecturale et la performance. <br />
+Aujourd’hui, je souhaite intégrer une équipe exigeante afin de contribuer à des applications maintenables, scalables et orientées impact utilisateur, tout en continuant à élever mon niveau technique.
         </p>
         <Button/>
     </section>

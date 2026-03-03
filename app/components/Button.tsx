@@ -7,7 +7,7 @@ const Button = () => {
           <a className='btn'
             href='/CV_MelanieBruzac.pdf'
             download='CV_MelanieBruzac.pdf'
-            data-aos ='fade-left'>  Télécharger mon CV </a>
+            data-aos ='fade-left'>Télécharger mon CV</a>
           <a className='btn' href='#contact'  data-aos ='fade-left'> Me contacter </a>
         </div>
   )
