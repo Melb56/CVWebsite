@@ -48,5 +48,5 @@ cd portfolio
 ### Installer les dépendances 
 npm install 
 
-### Lancer le serveur de
+### Lancer le serveur
 dev npm run dev
