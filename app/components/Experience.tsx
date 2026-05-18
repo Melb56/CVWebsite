@@ -95,8 +95,7 @@ const Experience = () => {
                     <h4>ENSITECH, Nantes</h4>
                     <p className='date'>Septembre 2026 à Septembre 2027</p>
                     <p className='diploma'>Bachelor3 Cybersécurité, Systèmes & Réseaux</p>
-                    <p>
-                        Formation en alternance préparant au titre professionnel RNCP niveau 6 "Administrateur d'infrastructures sécurisées". Programme axé sur l'administration systèmes Linux/Windows, la sécurité des réseaux, la virtualisation, le cloud et les pratiques DevOps/SecOps.</p>
+                    <p>Formation en alternance préparant au titre professionnel RNCP niveau 6 "Administrateur d'infrastructures sécurisées". Programme axé sur l'administration systèmes Linux/Windows, la sécurité des réseaux, la virtualisation, le cloud et les pratiques DevOps/SecOps.
 Rythme d'alternance : 1 semaine en formation / 3 semaines en entreprise.
                     </p>
                 </div>
