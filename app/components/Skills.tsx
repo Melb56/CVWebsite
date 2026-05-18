@@ -131,6 +131,25 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
+
+                          {/* Cybersécurité */}
+            <div className='skills-card' data-aos='fade-left' data-aos-duration='1500'>
+                <h3>OCybersécurité</h3>
+                <div className='skills-container'>
+                    <div className='skills-item'>
+                        <p>Linux System Administration</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>OWASP Top 10</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>Sécurité applicative</p>
+                    </div>
+                    <div className='skills-item'>
+                        <p>TryHackMe CS101</p>
+                    </div>                   
+                </div>
+            </div>
         </div>
                 {/* LANGUES */}
         <div className='langue'>
