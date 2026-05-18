@@ -8,7 +8,7 @@ const Contact = () => {
     <section id='contact'>
         <h2 data-aos='fade-down' data-aos-duration='1500'>Contactez-moi !</h2>
         <div className='intro-contact' data-aos='fade-right' data-aos-duration='1500'>
-          <p >À la recherche d’une alternance de 12 ans en </p>
+          <p >À la recherche d’une alternance de 1an en </p>
           <p className='job'>Cybersécurité </p> 
           <div className='text-contact' ><p> Je serais ravie d’échanger avec vous de mon parcours et ma motivation.</p></div>
         </div>
