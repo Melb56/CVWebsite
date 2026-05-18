@@ -4,8 +4,8 @@ import '../styles/skills.css';
 import './SkillBar'
 import SkillBar from './SkillBar';
 
-const Skills = () => {
-  return (
+  const Skills = () => {
+    return (
     <section id='skills' className='fade-in'>
         <h2  data-aos='fade-down' data-aos-duration='1500'>Mes Compétences</h2>
         <div className='skills'>
@@ -130,7 +130,7 @@ const Skills = () => {
                 </div>
             </div>
 
-                          {/* Cybersécurité */}
+                {/* Cybersécurité */}
             <div className='skills-card' data-aos='fade-left' data-aos-duration='1500'>
                 <h3>Cybersécurité</h3>
                 <div className='skills-container'>
@@ -152,7 +152,7 @@ const Skills = () => {
                 {/* LANGUES */}
             <div className='skills-card'  data-aos='fade-right' data-aos-duration='1500'>
                 <h3>Langues</h3>
-                <div className='skills-container-langue'>
+                <div className='skills-container'>
                     <div className='skills-item-langue'>
                         <p>Français</p>
                         <SkillBar level={100} label={''}/>
@@ -170,8 +170,9 @@ const Skills = () => {
                         <SkillBar level={20} label={''}/>
                     </div>
               </div>    
-        </div>     
-      
+            </div>     
+        
+        </div>
 
     </section>
   )
