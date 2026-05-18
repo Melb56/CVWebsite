@@ -170,9 +170,8 @@ const Skills = () => {
                         <p>Allemand</p>
                         <SkillBar level={20} label={''}/>
                     </div>
-                </div>
-       </div>
-            </div>         
+              </div>
+       </div>      
         </div>     
       
 
