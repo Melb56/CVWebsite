@@ -148,7 +148,7 @@ const Skills = () => {
                     </div>                   
                 </div>
             </div>
-        </div>
+          
                 {/* LANGUES */}
         <div className='langue'>
             <div className='skills-card'  data-aos='fade-right' data-aos-duration='1500'>
@@ -171,7 +171,7 @@ const Skills = () => {
                         <SkillBar level={20} label={''}/>
                     </div>
                 </div>
-
+       </div>
             </div>         
         </div>     
       
