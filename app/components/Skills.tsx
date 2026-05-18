@@ -132,7 +132,7 @@ const Skills = () => {
 
                           {/* Cybersécurité */}
             <div className='skills-card' data-aos='fade-left' data-aos-duration='1500'>
-                <h3>OCybersécurité</h3>
+                <h3>Cybersécurité</h3>
                 <div className='skills-container'>
                     <div className='skills-item'>
                         <p>Linux System Administration</p>
