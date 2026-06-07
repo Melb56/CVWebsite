@@ -29,8 +29,8 @@ const Hero = () => {
 
         <div className='hero-content' data-aos='fade-right' data-aos-duration='1500'>
             <h3>Mélanie Bruzac</h3>
-            <h1 className='poste'>Développeuse fullstack & Cybersécurité</h1>  
-            <p className='competence'>React • Next.js • Linux • UI/UX • Sécurité applicative</p>
+            <h1 className='poste'>Alternante en administration des infrastructures sécurisées</h1>  
+            <p className='competence'>Bachelor 3 Cybersécurité, Systèmes & Réseaux • Ensitech Nantes • Alternance 12 mois - sep. 2026</p>
             <div id='typed-output' ref={typedRef}></div>
             <Button/>
         </div>
