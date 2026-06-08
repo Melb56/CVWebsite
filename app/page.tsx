@@ -4,7 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
-// import Writeup from './components/Writeup';
+import Writeup from './components/Writeup';
 import Contact from './components/Contact';
 import  Footer  from './components/Footer';
 import './styles/globals.css';
@@ -25,7 +25,7 @@ export default function Home() {
     <About/> 
     <Skills/> 
     <Experience/> 
-    {/* <Writeup/> */}
+     <Writeup/>
     <Portfolio/> 
     <Contact/>
     <Arrow/>
