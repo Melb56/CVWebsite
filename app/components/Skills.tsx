@@ -79,8 +79,6 @@ import SkillBar from './SkillBar';
                             <h5>Outils & Plateformes</h5>
                         </div>
                         <div className='skills-item'>
-                            <li>Linux - en cours</li>
-                            <li>Nmap - en cours</li>
                             {/* <li>TryHackMe - en cours</li>
                             <li>Root-me - en cours</li> */}
                             <li>VirtualBox  - en cours</li>
