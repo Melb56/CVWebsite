@@ -93,107 +93,101 @@ import SkillBar from './SkillBar';
             </div>
 
             <div className='skills-droit'>
-             {/* Développement*/}
-            <div className='skills-section'>
-                <div className='skills-card' data-aos='fade-right' data-aos-duration='1500'>
-                    <h3>Développement</h3>
-                        {/*FRONT*/}
-                    <div className='skills-container'>
-                        <div className='skills-title'>
-                            <h5>Front-end</h5>
+                {/* Développement*/}
+                <div className='skills-section'>
+                    <div className='skills-card' data-aos='fade-right' data-aos-duration='1500'>
+                        <h3>Développement</h3>
+                            {/*FRONT*/}
+                        <div className='skills-container'>
+                            <div className='skills-title'>
+                                <h5>Front-end</h5>
+                            </div>
+                            <div className='skills-item'>
+                                <li>React.js</li>
+                                <li>Next.js</li>
+                                <li>JavaScript / TypeScript</li>
+                                <li>HTML / CSS</li>
+                                <li>SCSS</li>
+                                <li>Bootstrap</li>
+                                <li>Responsive design</li>
+                            </div>
+
                         </div>
-                        <div className='skills-item'>
-                            <li>React.js</li>
-                            <li>Next.js</li>
-                            <li>JavaScript / TypeScript</li>
-                            <li>HTML / CSS</li>
-                            <li>SCSS</li>
-                            <li>Bootstrap</li>
-                            <li>Responsive design</li>
+                            {/*BACK & API*/}
+                        <div className='skills-container'>
+                            <div className='skills-title'>
+                                <h5>Back-end & API</h5>
+                            </div>
+                            <div className='skills-item'>
+                                <li>Node.js</li>
+                                <li>Prisma ORM</li>
+                                <li>MySQL</li>
+                                <li>API REST</li>
+                                <li>NextAuth</li>
+                                <li>Symfony / PHP</li>
+                                <li>Docker - en cours</li>
+                            </div>
+
                         </div>
+                            {/*UI & QUALITE*/}
+                        <div className='skills-container'>
+                            <div className='skills-title'>
+                                <h5>UI & Qualité</h5>
+                            </div>
+                            <div className='skills-item'>
+                                <li>Intégration maquettes</li>
+                                <li>Prisma ORM</li>
+                                <li>SEO</li>
+                                <li>Figma</li>
+                                <li>Optimisation perf.</li>
+                                <li>Jest / Cypress</li>
+                            </div>
+
+                        </div>
+                            {/*OUTILS & DEVOPS*/}
+                        <div className='skills-container'>
+                            <div className='skills-title'>
+                                <h5>Outils & DevOps</h5>
+                            </div>
+                            <div className='skills-item'>
+                                <li>Git / GitHub</li>
+                                <li>Vercel</li>
+                                <li>JCI/CD (GitHub Actions) - en cours</li>
+                                <li>Docker Compose - en cours</li>
+                                <li>Trivy (scan images) - en cours</li>
+                            </div>
+
+                        </div>                   
 
                     </div>
-                        {/*BACK & API*/}
-                    <div className='skills-container'>
-                        <div className='skills-title'>
-                            <h5>Back-end & API</h5>
-                        </div>
-                        <div className='skills-item'>
-                            <li>Node.js</li>
-                            <li>Prisma ORM</li>
-                            <li>MySQL</li>
-                            <li>API REST</li>
-                            <li>NextAuth</li>
-                            <li>Symfony / PHP</li>
-                            <li>Docker - en cours</li>
-                        </div>
 
-                    </div>
-                        {/*UI & QUALITE*/}
-                    <div className='skills-container'>
-                        <div className='skills-title'>
-                            <h5>UI & Qualité</h5>
-                        </div>
-                        <div className='skills-item'>
-                            <li>Intégration maquettes</li>
-                            <li>Prisma ORM</li>
-                            <li>SEO</li>
-                            <li>Figma</li>
-                            <li>Optimisation perf.</li>
-                            <li>Jest / Cypress</li>
-                        </div>
+                </div>
 
-                    </div>
-                         {/*OUTILS & DEVOPS*/}
-                    <div className='skills-container'>
-                        <div className='skills-title'>
-                            <h5>Outils & DevOps</h5>
-                        </div>
-                        <div className='skills-item'>
-                            <li>Git / GitHub</li>
-                            <li>Vercel</li>
-                            <li>JCI/CD (GitHub Actions) - en cours</li>
-                            <li>Docker Compose - en cours</li>
-                            <li>Trivy (scan images) - en cours</li>
-                        </div>
-
-                    </div>                   
-
-                 </div>
-
-            </div>
-
-             {/* Langues*/}
-            <div className='skills-section'>
-                <div className='skills-card'  data-aos='fade-right' data-aos-duration='1500'>
-                    <h3>Langues</h3>
-                    <div className='skills-container'>
-                        <div className='skills-item-langue'>
-                            <p>Français</p>
-                            <SkillBar level={100} label={''}/>
-                        </div>
-                        <div className='skills-item-langue'>
-                            <p>Anglais</p>
-                            <SkillBar level={70} label={''}/>
-                        </div>
-                        <div className='skills-item-langue'>
-                            <p>Japonais</p>
-                            <SkillBar level={30} label={''}/>
-                        </div>
-                        <div className='skills-item-langue'>
-                            <p>Allemand</p>
-                            <SkillBar level={20} label={''}/>
-                        </div>
-                    </div>    
-                 </div> 
-            </div>
-        </div>
-
-
-
-
-          
-   
+                {/* Langues*/}
+                <div className='skills-section'>
+                    <div className='skills-card'  data-aos='fade-right' data-aos-duration='1500'>
+                        <h3>Langues</h3>
+                        <div className='skills-container'>
+                            <div className='skills-item-langue'>
+                                <p>Français</p>
+                                <SkillBar level={100} label={''}/>
+                            </div>
+                            <div className='skills-item-langue'>
+                                <p>Anglais</p>
+                                <SkillBar level={70} label={''}/>
+                            </div>
+                            <div className='skills-item-langue'>
+                                <p>Japonais</p>
+                                <SkillBar level={30} label={''}/>
+                            </div>
+                            <div className='skills-item-langue'>
+                                <p>Allemand</p>
+                                <SkillBar level={20} label={''}/>
+                            </div>
+                        </div>    
+                    </div> 
+                </div>
+             </div>
         
         </div>
 
