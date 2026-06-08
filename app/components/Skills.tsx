@@ -49,11 +49,8 @@ import SkillBar from './SkillBar';
                             <h5>Sécurité applicative</h5>
                         </div>
                         <div className='skills-item'>
-                            <li>OWASP Top 10 - en cours</li>
-                            <li>Injection SQL / XSS / CSRF</li>
+                            <li>OWASP Top 10 (Injection SQL / XSS / HTML Injection)- en cours</li>
                             <li>Security by Design</li>
-                            <li>Vecteurs d'attaque systèmes - en cours</li>
-                            <li>Vecteurs d'attaque humains - en cours</li>
                             <li>Gestion des vulnérabilités - notions</li>
                             <li>SAST / DAST - notions</li>
                             <li>Secrets management - en cours</li>
@@ -73,7 +70,6 @@ import SkillBar from './SkillBar';
                             <li>SIEM - en cours</li>
                             <li>ELK Stack - en cours</li>
                             <li>Analyse de trafic réseau - en cours</li>
-                            <li>Wireshark - en cours</li>
                         </div>
 
                     </div>
@@ -83,10 +79,10 @@ import SkillBar from './SkillBar';
                             <h5>Outils & Plateformes</h5>
                         </div>
                         <div className='skills-item'>
-                            <li>Kali Linux - en cours</li>
+                            <li>Linux - en cours</li>
                             <li>Nmap - en cours</li>
-                            <li>TryHackMe - en cours</li>
-                            <li>Root-me - en cours</li>
+                            {/* <li>TryHackMe - en cours</li>
+                            <li>Root-me - en cours</li> */}
                             <li>VirtualBox  - en cours</li>
                             <li>fail2ban - en cours</li>
                             <li>Trivy - en cours</li>
